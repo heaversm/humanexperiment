@@ -71,6 +71,9 @@ body {
   padding-top: 40px;
   display: table;
 }
+#site-logo {
+  margin-left: 40px;
+}
 #top-nav {
   margin-top: 3px;
 }
