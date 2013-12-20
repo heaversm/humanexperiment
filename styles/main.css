@@ -3,6 +3,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
 }
+.muncie {
+  font-family: 'muncieregular';
+}
 .museo3 {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +32,51 @@
 }
 .tc {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
+}
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.btn-round {
+  background: #288982;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
+  color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-weight: normal;
+  margin: 0;
+}
+button {
+  border: 0;
+}
+a,
+button {
+  cursor: pointer;
 }
 @font-face {
   font-family: 'museo_sans500';
@@ -52,12 +99,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'muncieregular';
+  src: url('../fonts/muncie-webfont.eot');
+  src: url('../fonts/muncie-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/muncie-webfont.woff') format('woff'), url('../fonts/muncie-webfont.ttf') format('truetype'), url('../fonts/muncie-webfont.svg#muncieregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-family: 'museo_sans500';
+  color: #3d3d3d;
 }
 #container {
   width: 100%;
@@ -80,13 +135,257 @@ body {
 .header-link {
   color: #fff;
   display: table-cell;
+  vertical-align: top;
   vertical-align: middle;
   -webkit-transition: color 0.3s ease-in;
   -moz-transition: color 0.3s ease-in;
   -o-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in;
   padding-left: 50px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
 }
 .header-link:hover {
   color: #053834;
+}
+/* trailer */
+#trailer-container {
+  height: 850px;
+  background: url('../images/structure/crowd-bg.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#trailer-content {
+  text-align: center;
+}
+#video-container {
+  margin: 0 auto;
+  width: 790px;
+  height: 444px;
+  padding-top: 50px;
+}
+#video-cta {
+  background: url(../images/trailer/trailer-bg.jpg) no-repeat top left;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+#video-cta-text {
+  margin-top: 130px;
+}
+.play-btn-container {
+  position: relative;
+  top: -60px;
+  display: inline-block;
+}
+.play-btn {
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+.play-btn-text {
+  color: white;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -webkit-opacity: 0.5;
+}
+.play-btn-container:hover .play-btn,
+.play-btn-container:hover .play-btn-text {
+  opacity: 1;
+  -moz-opacity: 1;
+  -webkit-opacity: 1;
+}
+#credit-sean-penn {
+  margin-top: 50px;
+}
+.laurels-container {
+  margin-left: -35px;
+  margin-top: 50px;
+}
+.laurel {
+  margin-left: 35px;
+}
+.share-container {
+  margin-top: 50px;
+}
+.share-container .twitter-follow-button {
+  margin-left: 10px;
+}
+/* updates */
+#update {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: table;
+}
+#update-text {
+  padding-left: 40px;
+  width: 630px;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: top;
+}
+#update-text h3 {
+  font-size: 1em;
+  color: #288982;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
+}
+#update-actions {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+  text-align: right;
+}
+#update-button {
+  margin-right: 40px;
+  font-size: 1em;
+  padding: 15px 20px;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+#update-button:hover {
+  background: #1c625d;
+}
+/* stats */
+#stats-container {
+  background: url('../images/stats/stats-bg.jpg');
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+#stats-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+#stats-content .stat-text {
+  margin-top: 35px;
+  color: white;
+}
+/* switch to safer */
+#switch-cta {
+  margin-top: 100px;
+}
+#switch-badge {
+  display: inline-block;
+}
+#cta-text-container {
+  font-size: 1.5em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans300';
+  color: #3d3d3d;
+  line-height: 35px;
+  margin: 0;
+  width: 480px;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+}
+#cta-text-container p:first-child {
+  margin-top: 60px;
+}
+#switch-btn {
+  padding: 25px 35px;
+  font-size: 24px;
+}
+#switch-products {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 60px;
+  padding-top: 60px;
+}
+#switch-products .product {
+  margin-left: 48px;
+}
+#switch-products .product:first-child {
+  margin-left: 0;
+}
+#switch-buttons {
+  text-align: center;
+  margin-top: 60px;
+}
+.switch-btn-container {
+  font-size: 1.125em;
+  display: inline-block;
+  width: 310px;
+}
+.switch-btn-container button {
+  font-size: 18px;
+  background: #bdbdbd;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+  width: 100%;
+  height: 80px;
+}
+.switch-btn-container button:hover {
+  background: #288982;
+}
+.switch-btn-container p {
+  line-height: 24px;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
+}
+.switch-btn-container.vine {
+  margin-left: 90px;
+}
+.switch-btn-container.vine button {
+  text-align: left;
+  padding-left: 30px;
+  background: url('../images/switch/logo-vine.png') no-repeat 90% center #bdbdbd;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+.switch-btn-container.vine button:hover {
+  background-color: #288982;
+}
+#stats-lobby-container {
+  background: url('../images/stats/stats-lobby-bg.jpg') no-repeat center center #053834;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  margin-top: 60px;
+  display: table;
+  width: 100%;
+}
+#stats-lobby {
+  text-align: center;
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+#lobby-number {
+  position: relative;
+  top: -95px;
+}
+/* join */
+#join-container {
+  background: #e5e5e5;
+}
+#join-content {
+  padding: 25px 0;
 }

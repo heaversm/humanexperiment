@@ -3,6 +3,7 @@
 body {
     margin: 0;
     .museo5;
+    color: @gray1;
 }
 
 #container {
@@ -30,10 +31,261 @@ body {
 .header-link {
     color: #fff;
     .tc;
+    vertical-align: middle;
     .transition(color .3s ease-in);
     padding-left: 50px;
+    .museo7;
 }
 
 .header-link:hover {
-    color: @color-green1;
+    color: @green1;
+}
+
+/* trailer */
+
+#trailer-container {
+    height: 850px;
+    background: url('../images/structure/crowd-bg.jpg') no-repeat center center;
+    .cover;
+}
+
+#trailer-content {
+    text-align: center;
+}
+
+#video-container {
+    margin: 0 auto;
+    width: 790px;
+    height: 444px;
+    padding-top: 50px;
+}
+
+#video-cta {
+    background: url(../images/trailer/trailer-bg.jpg) no-repeat top left;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+#video-cta-text {
+    margin-top: 130px;
+}
+
+.play-btn-container {
+    position: relative;
+    top: -60px;
+    .ib;
+}
+
+.play-btn {
+    .opacity(.5);
+    .transition(opacity .3s ease-in);
+}
+
+.play-btn-text {
+    color: white;
+    .opacity(.5);
+}
+
+.play-btn-container:hover {
+     .play-btn, .play-btn-text {
+        .opacity(1);
+     }
+}
+
+#credit-sean-penn {
+    margin-top: 50px;
+}
+
+.laurels-container {
+    margin-left: -35px;
+    margin-top: 50px;
+}
+
+.laurel {
+    margin-left: 35px;
+}
+
+.share-container {
+    margin-top: 50px;
+
+    .twitter-follow-button {
+        margin-left: 10px;
+    }
+
+}
+
+/* updates */
+
+#update {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .table;
+}
+
+#update-text {
+    padding-left: 40px;
+    width: 630px;
+    .ib;
+    .tc;
+
+    h3 {
+        .em(16);
+        color: @green2;
+        .museo7;
+    }
+
+}
+
+#update-actions {
+    .tc;
+    vertical-align: middle;
+    text-align: right;
+}
+
+#update-button {
+    margin-right: 40px;
+    .em(16);
+    padding: 15px 20px;
+    .transition(background-color .3s ease-in);
+}
+
+#update-button:hover {
+    background: darken(@green2,10%);
+}
+
+/* stats */
+
+#stats-container {
+    background: url('../images/stats/stats-bg.jpg');
+    height: 500px;
+    .cover;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+#stats-content {
+    display: table-cell;
+    vertical-align: middle;
+    .stat-text {
+        margin-top: 35px;
+        color: white;
+    }
+}
+
+/* switch to safer */
+
+#switch-cta {
+    margin-top: 100px;
+}
+
+#switch-badge {
+    .ib;
+}
+
+#cta-text-container {
+    .em(24);
+    .museo3;
+    color: @gray1;
+    line-height: 35px;
+    margin: 0;
+    width: 480px;
+    .ib;
+    margin-left: 50px;
+    vertical-align: top;
+    p:first-child {
+        margin-top: 60px;
+    }
+}
+
+#switch-btn {
+    padding: 25px 35px;
+    font-size: 24px;
+}
+
+#switch-products {
+    border-top: 1px solid @gray2;
+    margin-top: 60px;
+    padding-top: 60px;
+
+    .product {
+        margin-left: 48px;
+    }
+    .product:first-child {
+        margin-left: 0;
+    }
+}
+
+#switch-buttons {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.switch-btn-container {
+    .em(18);
+    .ib;
+    width: 310px;
+    button {
+        font-size: 18px;
+        background: @gray3;
+        .transition(background-color .3s ease-in);
+        width: 100%;
+        height: 80px;
+    }
+    button:hover {
+        background: @green2;
+    }
+    p {
+        line-height: 24px;
+        .museo7;
+    }
+}
+
+.switch-btn-container.vine {
+    margin-left: 90px;
+    button {
+        text-align: left;
+        padding-left: 30px;
+        background: url('../images/switch/logo-vine.png') no-repeat 90% center @gray3;
+        .transition(background-color .3s ease-in);
+    }
+    button:hover {
+        background-color: @green2;
+    }
+
+}
+
+#stats-lobby-container {
+    background: url('../images/stats/stats-lobby-bg.jpg') no-repeat center center @green1;
+    .cover;
+    height: 500px;
+    margin-top: 60px;
+    .table;
+    width: 100%;
+}
+
+#stats-lobby {
+    text-align: center;
+    .tc;
+    vertical-align: middle;
+}
+
+#lobby-number {
+    position: relative;
+    top: -95px;
+}
+
+/* join */
+
+#join-container {
+    background: @gray2;
+}
+
+#join-content {
+    padding: 25px 0;
+}
+
+#join-text {
+
 }

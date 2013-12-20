@@ -1,4 +1,9 @@
-@color-green1: #053834;
+@base: 16; //base font size
+@green1: #053834;
+@green2: #288982;
+@gray1: #3d3d3d;
+@gray2: #e5e5e5;
+@gray3: #bdbdbd;
 
 .transition(...) {
   -webkit-transition: @arguments;
@@ -11,6 +16,10 @@
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+}
+
+.muncie {
+    font-family: 'muncieregular';
 }
 
 .museo3 {
@@ -38,9 +47,63 @@
 
 .tc {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.opacity(@opacity) {
+    opacity: @opacity;
+    -moz-opacity: @opacity;
+    -webkit-opacity: @opacity;
+}
+
+.em(@px){
+    font-size: @px/@base + 0em;
+}
+
+.round(@radius:5px){
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+}
+
+.btn-round {
+    background: @green2;
+    .round(5px);
+    .museo7;
+    color: white;
+}
+
+h1,h2,h3,h4 {
+    .antialias;
+    font-weight: normal;
+    margin: 0;
+}
+
+button {
+    border: 0;
+}
+
+a,button {
+    cursor: pointer;
+}
 
 
 @font-face {
@@ -55,9 +118,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'museo_sans700';
     src: url('../fonts/museosans_700-webfont.eot');
@@ -67,11 +127,7 @@
          url('../fonts/museosans_700-webfont.svg#museo_sans700') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'museo_sans300';
@@ -80,6 +136,17 @@
          url('../fonts/museosans-300-webfont.woff') format('woff'),
          url('../fonts/museosans-300-webfont.ttf') format('truetype'),
          url('../fonts/museosans-300-webfont.svg#museo_sans300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muncieregular';
+    src: url('../fonts/muncie-webfont.eot');
+    src: url('../fonts/muncie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muncie-webfont.woff') format('woff'),
+         url('../fonts/muncie-webfont.ttf') format('truetype'),
+         url('../fonts/muncie-webfont.svg#muncieregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
