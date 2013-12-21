@@ -61,6 +61,15 @@
   font-family: 'museo_sans700';
   color: white;
 }
+.btn-round {
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+.btn-round.green:hover {
+  background: #1c625d;
+}
 h1,
 h2,
 h3,
@@ -77,6 +86,19 @@ button {
 a,
 button {
   cursor: pointer;
+}
+input {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans500';
+  color: #b7b7b7;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #b7b7b7;
+  outline: none;
 }
 @font-face {
   font-family: 'museo_sans500';
@@ -255,9 +277,6 @@ body {
   -o-transition: background-color 0.3s ease-in;
   transition: background-color 0.3s ease-in;
 }
-#update-button:hover {
-  background: #1c625d;
-}
 /* stats */
 #stats-container {
   background: url('../images/stats/stats-bg.jpg');
@@ -284,6 +303,7 @@ body {
 }
 #switch-badge {
   display: inline-block;
+  margin-left: 40px;
 }
 #cta-text-container {
   font-size: 1.5em;
@@ -388,4 +408,54 @@ body {
 }
 #join-content {
   padding: 25px 0;
+  display: table;
+}
+#join-text {
+  padding-left: 40px;
+  width: 190px;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: top;
+}
+#join-form {
+  display: inline-block;
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+#join-form input {
+  font-size: 1.125em;
+}
+#join-form button {
+  font-size: 1.125em;
+  padding: 10px 30px;
+}
+#join-email {
+  width: 268px;
+}
+#join-zip {
+  width: 148px;
+}
+/* credits */
+#credits-container {
+  height: 350px;
+  background: url('../images/structure/green-speck-bg.jpg');
+  background-size: 50%;
+}
+#credits-content {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.credits-img {
+  border-bottom: 1px solid #1c625d;
+  padding-bottom: 40px;
+}
+#credits-featured-container {
+  padding-top: 40px;
+  margin-left: -45px;
+}
+#credits-featured-container .credit-featured {
+  margin-left: 45px;
 }

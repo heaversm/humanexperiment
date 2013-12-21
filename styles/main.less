@@ -150,10 +150,6 @@ body {
     .transition(background-color .3s ease-in);
 }
 
-#update-button:hover {
-    background: darken(@green2,10%);
-}
-
 /* stats */
 
 #stats-container {
@@ -182,6 +178,7 @@ body {
 
 #switch-badge {
     .ib;
+    margin-left: 40px;
 }
 
 #cta-text-container {
@@ -284,8 +281,61 @@ body {
 
 #join-content {
     padding: 25px 0;
+    .table;
 }
 
 #join-text {
+    padding-left: 40px;
+    width: 190px;
+    .ib;
+    .tc;
+}
 
+#join-form {
+    .ib;
+    .tc;
+    vertical-align: middle;
+    padding-left: 50px;
+    input {
+        .em(18);
+    }
+    button {
+        .em(18);
+        padding: 10px 30px;
+    }
+}
+
+#join-email {
+    width: 268px;
+}
+
+#join-zip {
+    width: 148px;
+}
+
+/* credits */
+
+#credits-container {
+    height: 350px;
+    background: url('../images/structure/green-speck-bg.jpg');
+    background-size: 50%;
+}
+
+#credits-content {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.credits-img {
+    border-bottom: 1px solid darken(@green2,10%);
+    padding-bottom: 40px;
+}
+
+#credits-featured-container {
+    padding-top: 40px;
+    margin-left: -45px;
+    .credit-featured {
+        margin-left: 45px;
+    }
 }
