@@ -5,6 +5,7 @@
 @gray2: #e5e5e5;
 @gray3: #bdbdbd;
 @gray4: #b7b7b7;
+@gray5: #a9a9a9;
 
 .transition(...) {
   -webkit-transition: @arguments;
@@ -100,6 +101,20 @@
   background: darken(@green2,10%);
 }
 
+.bb {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
 h1,h2,h3,h4 {
     .antialias;
     font-weight: normal;
@@ -112,6 +127,17 @@ button {
 
 a,button {
     cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: @green2;
+  .museo7;
+  .transition(background-color .3s ease-in);
+}
+
+a:hover {
+  color: darken(@green2,10%);
 }
 
 input {

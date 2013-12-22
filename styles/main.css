@@ -70,6 +70,17 @@
 .btn-round.green:hover {
   background: #1c625d;
 }
+.bb {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
 h1,
 h2,
 h3,
@@ -86,6 +97,21 @@ button {
 a,
 button {
   cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #288982;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+a:hover {
+  color: #1c625d;
 }
 input {
   font-smoothing: antialiased;
@@ -458,4 +484,37 @@ body {
 }
 #credits-featured-container .credit-featured {
   margin-left: 45px;
+}
+/* footer */
+#footer-content {
+  padding: 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#footer-email-content {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.logo-footer {
+  float: left;
+}
+#email-text-container {
+  float: right;
+}
+.email-text {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+.publicity {
+  margin-top: 30px;
+  color: #a9a9a9;
+  float: left;
+}
+#email-legal {
+  margin-top: 30px;
+  color: #a9a9a9;
+}
+#email-legal p {
+  margin: 0;
 }
