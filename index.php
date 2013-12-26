@@ -2,37 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Human Experiment</title>
+    <title>The Human Experiment | Home</title>
     <link rel="stylesheet" href="styles/grid.css" />
     <link rel="stylesheet" href="styles/main.css"/>
 </head>
 <body>
     <div id="fb-root"></div>
     <div id="container">
-        <div id="header-container">
-            <div class="container_24" id="header-content">
-                    <a id="site-logo" class="grid_8 ib">
-                        <img src="images/structure/logo.png" alt="The Human Experiment" />
-                    </a>
-                    <div id="top-nav" class="ib">
-                    <a class="header-link">
-                        SEE<br/>THE FILM
-                    </a>
-                    <a class="header-link" >
-                        SWITCH<br/>TO SAFER
-                    </a>
-                    <a class="header-link">
-                        ABOUT
-                    </a>
-                    <a class="header-link">
-                        PRESS
-                    </a>
-                    <a class="header-link">
-                        LEARNING
-                    </a>
-                </div>
-            </div>
-        </div>
+        <?php require_once 'includes/header.php' ?>
         <div id="trailer-container">
             <div id="trailer-container">
                 <div id="trailer-content" class="container_24">
@@ -82,7 +59,7 @@
                 amet, consectetur adipiscing elit liquam ut nunc eu velit cursus varius nec eget.</p>
                 </div>
                 <div id="update-actions">
-                    <button id="update-button" class="btn-round">LEARN MORE</button>
+                    <button id="update-button" class="btn-round green">LEARN MORE</button>
                 </div>
 
             </div>
@@ -101,7 +78,7 @@
                     </div>
                     <div id="cta-text-container">
                         <p>Watch the film, and learn about safer products. Are your household products on our safe list?</p>
-                        <button id="switch-btn" class="btn-round">CHOOSE SAFER PRODUCTS NOW</button>
+                        <button id="switch-btn" class="btn-round green">CHOOSE SAFER PRODUCTS NOW</button>
                     </div>
                 </div>
                 <div id="switch-products">
@@ -128,67 +105,61 @@
         <div id="stats-lobby-container">
             <div id="stats-lobby" class="container_24">
                 <img id="lobby-img" src="images/stats/stats-lobby-number.png" alt="52,000,000">
-                <img id="lobby-number" src="images/stats/stats-lobby-text.png" alt="was spent last year lobbying chemicals">
             </div>
         </div>
-        <div id="join-container">
-            <div id="join-content" class="container_24">
-                <div id="join-text">
-                    <img src="images/join/header-join.png" alt="JOIN US TODAY">
-                    <p class="museo7">Get monthly updates on safer products.</p>
-                </div>
-                <div id="join-form">
-                    <input type="text" id="join-email" placeholder="email address">
-                    <input type="text" id="join-zip" placeholder="zip code">
-                    <button id="btn-join-submit" class="btn-round">GET UPDATES</button>
-                </div>
+        <?php require_once 'includes/join.php' ?>
+        <?php require_once 'includes/credits.php' ?>
+        <?php require_once 'includes/footer.php' ?>
+    </div>
+    <div id="overlay-container">
+        <div class="overlay-bg"></div>
+        <div id="overlay-vine" class="overlay-content">
+            <a href="" class="close-btn"><img src="images/structure/btn-close.gif" alt="Close"></a>
+            <div id="vine-logos">
+                <a href=""><img src="images/overlay/logo-cancer.png" alt="Breast Cancer Foundation"></a>
+                <a href=""><img src="images/overlay/logo-vine.gif" alt="Vine"></a>
+                <a href=""><img src="images/overlay/logo-ecology.gif" alt="Ecology Center"></a>
+                <p class="vine-promo">In partnership with <a href="http://vine.com">vine.com</a> 20% off your order.<br/>
+10% goes to Breast Cancer and the Ecology Center</p>
             </div>
-        </div>
-        <div id="credits-container">
-            <div id="credits-content" class="container_24">
-                <div id="credits-img-container">
-                    <img src="images/credits/credits.gif" alt="credits" class="credits-img">
-                </div>
-                <div id="credits-featured-container">
-                    <a href="" class="credit-featured">
-                        <img src="images/credits/credit-train.png" alt="Moving Train" class="credit-featured-img">
-                    </a>
-                    <a href="" class="credit-featured">
-                        <img src="images/credits/credit-ktf.png" alt="KTF Films" class="credit-featured-img">
-                    </a>
-                    <a href="" class="credit-featured">
-                        <img src="images/credits/credit-fledgling.png" alt="Fledgling Fund" class="credit-featured-img">
-                    </a>
-                    <a href="" class="credit-featured">
-                        <img src="images/credits/credit-tfi.gif" alt="Tribeca Film Institute" class="credit-featured-img">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div id="footer-container">
-            <div id="footer-content" class="container_24" >
-                <div id="footer-email-content" class="clearfix">
-                    <img class="fl" src="images/footer/logo-footer.png" alt="The Human Experiment">
-                    <div id="email-text-container" class="fr">
-                        <img src="images/footer/icon-email.png" alt="Email" class="email-icon">
-                        <p class="email-text">
-                            Contact Us<br/>
-                            <a href="mailto:thehumanexperimentmovie.com">thehumanexperimentmovie.com</a>
-                        </p>
-                    </div>
-                </div>
-                <div id="email-legal" class="clearfix">
-                    <p class="fl">
-                        Publicity Adam Segal 2050 Group • (202) 422-4673 Sales <br/>
-                        Josh Braun Submarine Entertainment
-                    </p>
-                    <p class="fr">
-                        Brought to you by <a href="www.ktffilms.com">ktffilms.com</a>
-                    </p>
-                </div>
-            </div>
-        </div>
+            <div class="promo-details">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum justo sit amet
+pellentesque volutpat. Vivamus fringilla mollis magna eu laoreet. Fusce scelerisque
+mollis quam eu sollicitudin. Maecenas vel augue eget enim posuere facilisis. Nulla facilisi.
+Mauris eget augue ultrices, sagittis arcu mattis, adipiscing velit. Mauris elementum, lorem
+vitae auctor lacinia, risus massa congue mauris, porta lacinia nisl lorem eget nunc. </p><p>
+Maecenas et ultricies magna. Integer eu urna a ligula consequat varius. Suspendisse
+ultricies egestas ullamcorper. Nulla eu facilisis odio. Pellentesque luctus est vitae justo
+pellentesque accumsan. Quisque dapibus enim vel quam condimentum, et malesuada
+erat hendrerit. Cras faucibus orci ut risus tristique congue. Morbi dapibus varius leo, a
+luctus neque viverra non. Praesent eu tristique augue.</p>
 
+            </div>
+        </div>
+        <div id="overlay-faq" class="overlay-content" >
+            <a href="" class="close-btn"><img src="images/structure/btn-close.gif" alt="Close"></a>
+            <div class="overlay-text">
+                <h3>Why these products?</h3>
+                <p>All product decisions on this website and in the film have been
+approved by our advisory board. The Human Experiment
+Advisory Board consists of 12 members from top Universities and
+research institutions.</p>
+                <h3>Who are the members of the advisory board?</h3>
+                <p>Dr. Connie Engel, is an expert on the conjunction of science and
+advocacy in the environmental breast cancer movement. She is the
+Science and Education Manager for the Breast Cancer Fund.</p>
+
+<p>Dr. Sarah Janssen was a past Staff Scientist for the NRDC where she
+provided scientific expertise for policy and regulatory decisions on a
+number of toxic chemicals. She now is an Assistant Professor for
+UCSF School of Medicine.</p>
+
+<p>Lauren Heine is the Consulting Co-Director, Green Screen & Applied
+Science for Clean Production Action. She applies green chemistry,
+green engineering and design for the environment for sustainable
+business practices.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
