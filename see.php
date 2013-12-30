@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | See The Film</title>
-    <link rel="stylesheet" href="styles/grid.css" />
     <link rel="stylesheet" href="styles/main.css"/>
 </head>
 <body>

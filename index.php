@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | Home</title>
-    <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
@@ -14,7 +13,7 @@
             <div id="trailer-content" class="container_24">
                 <div id="video-container">
                     <div id="video-cta">
-                        <img src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
+                        <img class="video-title" src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
                         <a class="play-btn-container">
                             <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
                             <p class="play-btn-text">WATCH THE TRAILER</p>

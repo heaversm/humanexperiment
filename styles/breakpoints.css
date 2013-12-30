@@ -234,6 +234,9 @@ nav a {
   margin-top: 20px;
   display: block;
 }
+img {
+  max-width: 100%;
+}
 @font-face {
   font-family: 'museo_sans500';
   src: url('../fonts/museosans_500-webfont.eot');
@@ -325,7 +328,7 @@ body {
 }
 #video-container {
   margin: 0 auto;
-  width: 790px;
+  width: 82.29166666666666%;
   height: 444px;
   padding-top: 50px;
 }
@@ -334,6 +337,13 @@ body {
   text-align: center;
   height: 100%;
   position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.video-title {
+  max-width: 95%;
 }
 #video-cta-text {
   margin-top: 130px;
@@ -373,6 +383,7 @@ body {
 }
 .laurel {
   margin-left: 35px;
+  display: inline-block;
 }
 .share-container {
   margin-top: 50px;
@@ -439,6 +450,7 @@ body {
 #switch-badge {
   display: inline-block;
   margin-left: 40px;
+  width: 36.666666666666664%;
 }
 #cta-text-container {
   font-size: 1.5em;
@@ -449,7 +461,7 @@ body {
   color: #3d3d3d;
   line-height: 35px;
   margin: 0;
-  width: 480px;
+  width: 50%;
   display: inline-block;
   margin-left: 50px;
   vertical-align: top;
@@ -468,6 +480,9 @@ body {
 }
 #switch-products .product {
   margin-left: 48px;
+  display: inline-block;
+  max-width: 15%;
+  margin-left: 5%;
 }
 #switch-products .product:first-child {
   margin-left: 0;
@@ -574,6 +589,9 @@ body {
   height: 350px;
   background: url('../images/structure/green-speck-bg.jpg');
   background-size: 50%;
+}
+#credits-img-container {
+  margin: 0 auto;
 }
 #credits-content {
   text-align: center;
@@ -1206,6 +1224,9 @@ body {
     margin-right: 40px;
     height: 50px;
     overflow: hidden;
+    background: url('../images/structure/nav-icon.png') no-repeat right 5px;
+    background-size: 28px auto;
+    cursor: pointer;
   }
   .header-link {
     padding: 10px 20px;
@@ -1226,5 +1247,27 @@ body {
   }
   #top-nav:hover {
     height: auto;
+  }
+  .laurels-container {
+    margin-left: -4%;
+  }
+  .laurels-container .laurel {
+    max-width: 15%;
+    margin-left: 4%;
+  }
+  #cta-text-container {
+    margin-left: 5%;
+  }
+  #cta-text-container p:first-child {
+    margin-top: 0px;
+  }
+  #lobby-img {
+    max-width: 95%;
+  }
+  #join-form input {
+    display: block;
+  }
+  #credits-img-container {
+    max-width: 95%;
   }
 }
