@@ -3,51 +3,49 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | Home</title>
-    <link rel="stylesheet" href="styles/grid.css" />
     <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
     <div id="fb-root"></div>
     <div id="container">
         <?php require_once 'includes/header.php' ?>
         <div id="trailer-container">
-            <div id="trailer-container">
-                <div id="trailer-content" class="container_24">
-                    <div id="video-container">
-                        <div id="video-cta">
-                            <img src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
-                            <a class="play-btn-container">
-                                <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
-                                <p class="play-btn-text">WATCH THE TRAILER</p>
-                            </a>
-                        </div>
+            <div id="trailer-content" class="container_24">
+                <div id="video-container">
+                    <div id="video-cta">
+                        <img src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
+                        <a class="play-btn-container">
+                            <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
+                            <p class="play-btn-text">WATCH THE TRAILER</p>
+                        </a>
                     </div>
-                    <img  id="credit-sean-penn" src="images/trailer/credit-sean-penn.png" alt="Narrated and Executive Produced by Sean Penn">
-                    <div class="laurels-container">
-                        <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
-                        <a href="" class="laurel"><img src="images/laurels/idfa.png" alt=""></a>
-                        <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
-                        <a href="" class="laurel"><img src="images/laurels/idfa.png" alt=""></a>
-                        <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
-                    </div>
-                    <div class="share-container">
+                </div>
+                <img  id="credit-sean-penn" src="images/trailer/credit-sean-penn.png" alt="Narrated and Executive Produced by Sean Penn">
+                <div class="laurels-container">
+                    <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
+                    <a href="" class="laurel"><img src="images/laurels/idfa.png" alt=""></a>
+                    <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
+                    <a href="" class="laurel"><img src="images/laurels/idfa.png" alt=""></a>
+                    <a href="" class="laurel"><img src="images/laurels/mill-valley.png" alt=""></a>
+                </div>
+                <div class="share-container">
 
-                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                        <script>
-                            (function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s); js.id = id;
-                                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=250571575107349";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
-                        </script>
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                    <script>
+                        (function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=250571575107349";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
 
-                        <a href="https://twitter.com/chemicalmovie" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @chemicalmovie</a>
-                        <script>
-                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                        </script>
-                    </div>
+                    <a href="https://twitter.com/chemicalmovie" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @chemicalmovie</a>
+                    <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    </script>
                 </div>
             </div>
         </div>

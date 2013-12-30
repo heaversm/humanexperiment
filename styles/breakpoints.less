@@ -1,0 +1,26 @@
+@import "main.less";
+
+@media only screen and (max-width : 959px) {
+    #top-nav {
+        float: right;
+        margin-right: 40px;
+        height: 50px;
+        overflow: hidden;
+    }
+    .header-link {
+        padding: 10px 20px;
+        display: block;
+        margin-top: 0px;
+        background: @green2;
+    }
+    .header-link:first-child {
+        margin-top: 50px;
+        .br(5px,5px,0px,0px);
+    }
+    .header-link:last-child {
+        .br(0px,0px,5px,5px);
+    }
+    #top-nav:hover {
+        height: auto;
+    }
+}
