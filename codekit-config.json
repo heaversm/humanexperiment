@@ -2,6 +2,241 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/styles\/grid.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/grid.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/learning\/logo-chemicals.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/learning\/logo-chemicals.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/learning\/logo-chemicals.jpg",
+      "initialSize" : 6466,
+      "fileType" : 4096
+    },
+    "\/images\/structure\/crowd-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/structure\/crowd-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/structure\/crowd-bg.jpg",
+      "initialSize" : 89715,
+      "fileType" : 4096
+    },
+    "\/learning.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/learning.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/press\/laurel.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "initialSize" : 13699,
+      "fileType" : 8192
+    },
+    "\/images\/laurels\/mill-valley.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "initialSize" : 7006,
+      "fileType" : 8192
+    },
+    "\/images\/stats\/stats-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
+      "initialSize" : 33103,
+      "fileType" : 4096
+    },
+    "\/images\/credits\/credit-ktf.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/credits\/credit-ktf.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/credits\/credit-ktf.png",
+      "initialSize" : 2456,
+      "fileType" : 8192
+    },
+    "\/includes\/product.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/product.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/trailer\/credit-sean-penn.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "initialSize" : 15654,
+      "fileType" : 8192
+    },
+    "\/styles\/breakpoints.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/breakpoints.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/learning\/bg-learning.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/learning\/bg-learning.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/learning\/bg-learning.jpg",
+      "initialSize" : 23850,
+      "fileType" : 4096
+    },
+    "\/images\/switch\/logo-vine.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "initialSize" : 3223,
+      "fileType" : 8192
+    },
+    "\/images\/trailer\/trailer-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-bg.jpg",
+      "initialSize" : 18483,
+      "fileType" : 4096
+    },
+    "\/styles\/breakpoints.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/breakpoints.less",
+      "outputAbbreviatedPath" : "\/styles\/breakpoints.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/images\/about\/filmmaker-dana.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-dana.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-dana.jpg",
+      "initialSize" : 41344,
+      "fileType" : 4096
+    },
+    "\/images\/press\/bg-header.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/bg-header.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/bg-header.jpg",
+      "initialSize" : 88521,
+      "fileType" : 4096
+    },
+    "\/images\/see\/see-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/see\/see-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/see\/see-bg.jpg",
+      "initialSize" : 64245,
+      "fileType" : 4096
+    },
+    "\/images\/switch\/products\/fair-trade.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "initialSize" : 6764,
+      "fileType" : 4096
+    },
+    "\/styles\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/main.less",
+      "outputAbbreviatedPath" : "\/styles\/main.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/images\/structure\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "initialSize" : 4680,
+      "fileType" : 8192
+    },
     "\/styles\/common.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/styles\/common.less",
@@ -19,6 +254,258 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/images\/overlay\/logo-cancer.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
+      "initialSize" : 6971,
+      "fileType" : 8192
+    },
+    "\/includes\/credits.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/credits.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/see\/see-title.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "initialSize" : 2758,
+      "fileType" : 8192
+    },
+    "\/images\/trailer\/play-btn.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/trailer\/play-btn.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/trailer\/play-btn.png",
+      "initialSize" : 5034,
+      "fileType" : 8192
+    },
+    "\/styles\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/main.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/stats\/stat.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stat.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stat.png",
+      "initialSize" : 49210,
+      "fileType" : 8192
+    },
+    "\/images\/stats\/stats-lobby-text.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
+      "initialSize" : 3768,
+      "fileType" : 8192
+    },
+    "\/images\/see\/host-title.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/see\/host-title.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/see\/host-title.png",
+      "initialSize" : 2959,
+      "fileType" : 8192
+    },
+    "\/images\/footer\/icon-email.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/footer\/icon-email.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/footer\/icon-email.png",
+      "initialSize" : 1273,
+      "fileType" : 8192
+    },
+    "\/images\/switch\/badge-safer.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
+      "initialSize" : 5479,
+      "fileType" : 8192
+    },
+    "\/images\/structure\/green-speck-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/structure\/green-speck-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/structure\/green-speck-bg.jpg",
+      "initialSize" : 10768,
+      "fileType" : 4096
+    },
+    "\/images\/switch\/product-img.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/product-img.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/product-img.jpg",
+      "initialSize" : 3313,
+      "fileType" : 4096
+    },
+    "\/includes\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/credits\/credit-train.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/credits\/credit-train.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/credits\/credit-train.png",
+      "initialSize" : 4302,
+      "fileType" : 8192
+    },
+    "\/images\/switch\/products\/seventh.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/seventh.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/seventh.jpg",
+      "initialSize" : 6600,
+      "fileType" : 4096
+    },
+    "\/see.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/see.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/switch\/switch-section-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/switch-section-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/switch-section-bg.jpg",
+      "initialSize" : 34989,
+      "fileType" : 4096
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/press\/laurel.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.jpg",
+      "initialSize" : 14616,
+      "fileType" : 4096
+    },
+    "\/switch.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/switch.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/switch\/products\/avalon.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/avalon.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/avalon.jpg",
+      "initialSize" : 7297,
+      "fileType" : 4096
+    },
+    "\/images\/trailer\/trailer-cta.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "initialSize" : 40297,
+      "fileType" : 8192
+    },
+    "\/images\/stats\/stats-lobby-number.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
+      "initialSize" : 5446,
+      "fileType" : 8192
+    },
+    "\/images\/about\/bg-about.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "initialSize" : 140655,
+      "fileType" : 4096
+    },
     "\/images\/structure\/header-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -30,60 +517,169 @@
       "initialSize" : 15959,
       "fileType" : 4096
     },
-    "\/styles\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/index.html" : {
+    "\/includes\/header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
+      "inputAbbreviatedPath" : "\/includes\/header.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/structure\/logo.png" : {
+    "\/images\/about\/filmmaker-don.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
-      "initialSize" : 4680,
+      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
+      "initialSize" : 48176,
+      "fileType" : 4096
+    },
+    "\/template.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/includes\/join.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/join.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/stats\/stats-lobby-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-bg.jpg",
+      "initialSize" : 168419,
+      "fileType" : 4096
+    },
+    "\/images\/learning\/learning-photo.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/learning\/learning-photo.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/learning\/learning-photo.jpg",
+      "initialSize" : 45601,
+      "fileType" : 4096
+    },
+    "\/images\/footer\/logo-footer.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/footer\/logo-footer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/footer\/logo-footer.png",
+      "initialSize" : 4711,
       "fileType" : 8192
     },
-    "\/styles\/grid.css" : {
+    "\/safer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/grid.css",
+      "inputAbbreviatedPath" : "\/safer.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
-    "\/styles\/main.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/main.less",
-      "outputAbbreviatedPath" : "\/styles\/main.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
+    "\/images\/laurels\/idfa.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/laurels\/idfa.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/laurels\/idfa.png",
+      "initialSize" : 6847,
+      "fileType" : 8192
+    },
+    "\/images\/press\/logo-abc.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
+      "initialSize" : 5229,
+      "fileType" : 4096
+    },
+    "\/images\/credits\/credit-fledgling.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/credits\/credit-fledgling.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/credits\/credit-fledgling.png",
+      "initialSize" : 4323,
+      "fileType" : 8192
+    },
+    "\/images\/switch\/products\/arm.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/arm.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/arm.jpg",
+      "initialSize" : 9815,
+      "fileType" : 4096
+    },
+    "\/images\/join\/header-join.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/join\/header-join.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/join\/header-join.png",
+      "initialSize" : 2092,
+      "fileType" : 8192
+    },
+    "\/press.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/press.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/switch\/products\/molly.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
+      "initialSize" : 6705,
+      "fileType" : 4096
+    },
+    "\/about.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/about.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [
