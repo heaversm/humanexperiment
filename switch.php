@@ -43,7 +43,7 @@
                                 <img src="images/switch/badge-safer.png" alt="Switch to safer">
                                 <p>Watch the film, and learn about safer products. Are your household products on our safe list?</p>
                             </div>
-                            <div id="switch-buttons">
+                            <div id="switch-buttons" class="clearfix">
                                 <div class="switch-btn-container">
                                     <button class="btn-round">WHY THESE PRODUCTS</button>
                                     <p>Click to learn more about<br/>these products</p>
