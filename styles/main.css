@@ -124,11 +124,46 @@
   font-family: 'muncieregular';
   display: inline-block;
 }
-.center {
+.center-text {
   text-align: center;
+}
+.center-margin {
+  margin: 0 auto;
+  display: inline-block;
 }
 .mw {
   max-width: 100%;
+}
+.section-header {
+  border: 5px solid white;
+  padding: 5px;
+  font-family: 'muncieregular';
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding-bottom: 0px;
+}
+.section-header-container {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+.vac {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+.date {
+  color: #a2a2a2;
+  font-style: italic;
+  margin: 0;
+}
+.article-title {
+  font-size: 1.875em;
+  margin-top: 10px;
+  color: #288982;
 }
 h1,
 h2,
@@ -184,6 +219,14 @@ input {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+nav h4 {
+  font-size: 1.125em;
+  color: #b0b0b0;
+}
+nav a {
+  margin-top: 20px;
+  display: block;
 }
 @font-face {
   font-family: 'museo_sans500';
@@ -371,6 +414,7 @@ body {
 }
 #stats-content {
   display: table-cell;
+  vertical-align: top;
   vertical-align: middle;
 }
 #stats-content .stat-text {
@@ -764,11 +808,11 @@ body {
   width: 375px;
   display: table-cell;
   vertical-align: top;
+  vertical-align: middle;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-size: 1.5em;
-  vertical-align: middle;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -801,16 +845,13 @@ body {
   text-align: center;
 }
 .switch-section-header h2 {
-  font-family: 'muncieregular';
-  color: white;
-  font-size: 8.125em;
   border: 5px solid white;
+  padding: 5px;
+  font-family: 'muncieregular';
   display: inline-block;
+  font-size: 8.125em;
   padding: 10px 10px 5px 10px;
   height: 138px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   margin-top: 31px;
 }
 .switch-section-content {
@@ -970,4 +1011,177 @@ body {
 }
 .filmmaker:nth-child(odd) .filmmaker-photo {
   float: right;
+}
+/* press */
+#press-header {
+  background: url('../images/press/bg-header.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 236px;
+}
+#press-header #press-title {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+#press-header h1 {
+  font-size: 9.0625em;
+}
+#press-quotes {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.press-quote {
+  text-align: center;
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+}
+.press-quote:first-child {
+  margin-left: 0;
+}
+.quote-container {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  height: 100px;
+  width: 100%;
+  display: table;
+}
+.quote-container h3 {
+  font-size: 1.875em;
+  color: #288982;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans300';
+  font-style: italic;
+  letter-spacing: -1px;
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+.quote-logo-container {
+  display: table;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+}
+.quote-logo-container img {
+  margin: 0 auto;
+}
+#awards-container {
+  background: #fafafa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#awards {
+  text-align: center;
+}
+#awards h3 {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 1.875em;
+  color: #288982;
+}
+#awards-images {
+  margin-top: 40px;
+}
+#awards-images img {
+  margin-left: 40px;
+}
+#awards-images img:first-child {
+  margin-left: 0px;
+}
+#press-blog {
+  padding: 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+#press-blog h2 {
+  font-size: 1.875em;
+  color: #288982;
+}
+.press-article {
+  margin-top: 40px;
+}
+.press-article p {
+  margin: 0;
+}
+/* learning */
+#learning-header {
+  height: 236px;
+  background: url('../images/learning/bg-learning.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#learning-title {
+  display: table-cell;
+  vertical-align: top;
+  vertical-align: middle;
+}
+#learning-title h1 {
+  font-size: 9.0625em;
+}
+#learning-content .cl {
+  width: 590px;
+}
+#learning-content .cr {
+  width: 190px;
+  padding-left: 40px;
+  margin-top: 40px;
+  border-left: 1px solid #fafafa;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+  box-sizing: content-box;
+}
+.learning-article {
+  padding: 40px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.learning-article .strong {
+  font-size: 1em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans700';
+  color: #626262;
+  margin-bottom: 0px;
+}
+.learning-article .article-title {
+  margin-bottom: 10px;
+}
+.learning-article .learning-photo {
+  margin-top: 20px;
+}
+.learning-article .learning-content {
+  margin-top: 20px;
+}
+.learning-article .learning-content p {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-family: 'museo_sans300';
+  line-height: 1.3em;
+  margin-bottom: 40px;
+}
+#action-container {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #fafafa;
+  margin-bottom: 40px;
+}
+#action-container p {
+  font-size: 0.875em;
+  line-height: 1.4em;
+  color: #616161;
+}
+#action-container button {
+  font-size: 1em;
 }

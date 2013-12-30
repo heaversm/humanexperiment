@@ -24,7 +24,7 @@
         </div>
         <div id="about-content-container" class="container_24">
             <div id="about-content">
-                <div class="center">
+                <div class="center-text">
                     <h1 class="border5">THE FILMMAKERS</h1>
                 </div>
                 <div class="filmmaker clearfix">
