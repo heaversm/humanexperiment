@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | Press</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
     <div id="container">
@@ -51,9 +51,9 @@
             <div id="awards" class="container_24">
                 <h3>Our Awards</h3>
                 <div id="awards-images">
-                    <img src="images/press/laurel.png" alt="laurel">
-                    <img src="images/press/laurel.png" alt="laurel">
-                    <img src="images/press/laurel.png" alt="laurel">
+                    <div class="awards-image"><img src="images/press/laurel.png" alt="laurel"></div>
+                    <div class="awards-image"><img src="images/press/laurel.png" alt="laurel"></div>
+                    <div class="awards-image"><img src="images/press/laurel.png" alt="laurel"></div>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div id="footer-container">
     <div id="footer-content" class="container_24" >
         <div id="footer-email-content" class="clearfix">
-            <img class="fl" src="images/footer/logo-footer.png" alt="The Human Experiment">
+            <div class="footer-logo"><img src="images/footer/logo-footer.png" alt="The Human Experiment"></div>
             <div id="email-text-container" class="fr">
                 <a href=""><img src="images/footer/icon-email.png" alt="Email" class="email-icon"></a>
                 <p class="email-text">

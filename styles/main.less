@@ -308,19 +308,24 @@ body {
     padding-left: 50px;
     input {
         .em(18);
+        margin-bottom: 8px;
     }
-    button {
-        .em(18);
-        padding: 10px 30px;
-    }
+}
+
+#btn-join-submit {
+    .em(18);
+    padding: 10px 30px;
+    margin-left: 8px;
+    margin-bottom: 8px;
 }
 
 #join-email {
-    width: 268px;
+    width: 260px;
 }
 
 #join-zip {
-    width: 148px;
+    width: 140px;
+    margin-left: 8px;
 }
 
 /* credits */
@@ -368,6 +373,12 @@ body {
     border-bottom: 1px solid @gray2;
 }
 
+.footer-logo {
+    .px-perc(270,960);
+    width: @perc;
+    .fl;
+}
+
 .logo-footer {
     float:left;
 }
@@ -392,6 +403,10 @@ body {
     color: @gray5;
     p {
         margin: 0;
+        width: 47.5%;
+    }
+    .fr {
+        text-align: right;
     }
 
 }
@@ -858,10 +873,11 @@ body {
 
 .press-quote {
     text-align: center;
-    width: 270px;
+    .px-perc(270,960);
+    width: @perc;
     .ib;
     vertical-align: top;
-    margin-left: 70px;
+    margin-left: 7%;
 }
 
 .press-quote:first-child {
@@ -919,12 +935,13 @@ body {
 #awards-images {
     margin-top: 40px;
 
-    img {
-        margin-left: 40px;
+     .awards-image {
+        .px-perc(270,960);
+        width: @perc;
+        margin-left: 4%;
+        .ib;
     }
-    img:first-child {
-        margin-left: 0px;
-    }
+
 }
 
 #press-blog {

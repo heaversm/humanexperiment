@@ -224,17 +224,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/images\/switch\/products\/fair-trade.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "initialSize" : 6764,
-      "fileType" : 4096
-    },
     "\/images\/structure\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -245,6 +234,23 @@
       "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
       "initialSize" : 4680,
       "fileType" : 8192
+    },
+    "\/styles\/common.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/common.less",
+      "outputAbbreviatedPath" : "\/styles\/common.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/images\/overlay\/logo-cancer.png" : {
       "ignoreWasSetByUser" : 0,
@@ -279,22 +285,16 @@
       "initialSize" : 2758,
       "fileType" : 8192
     },
-    "\/styles\/common.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/common.less",
-      "outputAbbreviatedPath" : "\/styles\/common.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/images\/switch\/products\/fair-trade.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "initialSize" : 6764,
+      "fileType" : 4096
     },
     "\/styles\/main.css" : {
       "ignoreWasSetByUser" : 0,
@@ -338,17 +338,6 @@
       "initialSize" : 2959,
       "fileType" : 8192
     },
-    "\/images\/switch\/badge-safer.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
-      "initialSize" : 5479,
-      "fileType" : 8192
-    },
     "\/images\/footer\/icon-email.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -358,6 +347,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/footer\/icon-email.png",
       "initialSize" : 1273,
+      "fileType" : 8192
+    },
+    "\/images\/switch\/badge-safer.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/badge-safer.png",
+      "initialSize" : 5479,
       "fileType" : 8192
     },
     "\/images\/structure\/green-speck-bg.jpg" : {
@@ -537,17 +537,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/about\/filmmaker-don.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
-      "initialSize" : 48176,
-      "fileType" : 4096
-    },
     "\/template.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -565,6 +554,17 @@
       "inputAbbreviatedPath" : "\/includes\/join.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/images\/about\/filmmaker-don.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
+      "initialSize" : 48176,
+      "fileType" : 4096
     },
     "\/images\/stats\/stats-lobby-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -588,15 +588,6 @@
       "initialSize" : 45601,
       "fileType" : 4096
     },
-    "\/safer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/safer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/footer\/logo-footer.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -607,6 +598,15 @@
       "outputAbbreviatedPath" : "\/images\/footer\/logo-footer.png",
       "initialSize" : 4711,
       "fileType" : 8192
+    },
+    "\/safer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/safer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/laurels\/idfa.png" : {
       "ignoreWasSetByUser" : 0,

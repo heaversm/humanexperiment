@@ -573,16 +573,20 @@ body {
 }
 #join-form input {
   font-size: 1.125em;
+  margin-bottom: 8px;
 }
-#join-form button {
+#btn-join-submit {
   font-size: 1.125em;
   padding: 10px 30px;
+  margin-left: 8px;
+  margin-bottom: 8px;
 }
 #join-email {
-  width: 268px;
+  width: 260px;
 }
 #join-zip {
-  width: 148px;
+  width: 140px;
+  margin-left: 8px;
 }
 /* credits */
 #credits-container {
@@ -622,6 +626,10 @@ body {
   padding-bottom: 30px;
   border-bottom: 1px solid #e5e5e5;
 }
+.footer-logo {
+  width: 28.125%;
+  float: left;
+}
 .logo-footer {
   float: left;
 }
@@ -643,6 +651,10 @@ body {
 }
 #email-legal p {
   margin: 0;
+  width: 47.5%;
+}
+#email-legal .fr {
+  text-align: right;
 }
 /* overlays */
 #overlay-container {
@@ -1070,10 +1082,10 @@ body {
 }
 .press-quote {
   text-align: center;
-  width: 270px;
+  width: 28.125%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 70px;
+  margin-left: 7%;
 }
 .press-quote:first-child {
   margin-left: 0;
@@ -1125,11 +1137,10 @@ body {
 #awards-images {
   margin-top: 40px;
 }
-#awards-images img {
-  margin-left: 40px;
-}
-#awards-images img:first-child {
-  margin-left: 0px;
+#awards-images .awards-image {
+  width: 28.125%;
+  margin-left: 4%;
+  display: inline-block;
 }
 #press-blog {
   padding: 40px;
@@ -1292,5 +1303,17 @@ body {
   }
   .filmmaker-bio p {
     font-size: 1em;
+  }
+  .press-quote h3 {
+    font-size: 1.5625em;
+  }
+  .article-title {
+    font-size: 1.5625em;
+  }
+  #join-zip {
+    margin-left: 0px;
+  }
+  #btn-join-submit {
+    margin-left: 0px;
   }
 }
