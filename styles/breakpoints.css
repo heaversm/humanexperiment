@@ -745,10 +745,10 @@ body {
   color: #414141;
 }
 #screenings .cl {
-  width: 430px;
+  width: 44.79166666666667%;
 }
 #screenings .cr {
-  width: 390px;
+  width: 40.625%;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -807,17 +807,18 @@ body {
   position: relative;
 }
 #nav-switch {
+  width: 23.958333333333336%;
   position: absolute;
   left: 0;
   top: 50px;
 }
 #switch-content {
   float: right;
-  width: 750px;
+  width: 78.125%;
   background: #f5f5f5;
 }
 #switch-intro {
-  width: 590px;
+  width: 78.66666666666666%;
   margin-right: 40px;
   margin-top: 50px;
   float: right;
@@ -828,13 +829,14 @@ body {
   padding-bottom: 50px;
   width: 100%;
 }
-.switch-header img {
-  width: 176px;
+.switch-header .switch-logo-img {
+  width: 29.830508474576273%;
   display: table-cell;
   vertical-align: top;
+  padding-right: 6%;
 }
 .switch-header p {
-  width: 375px;
+  width: 63.559322033898304%;
   display: table-cell;
   vertical-align: top;
   vertical-align: middle;
@@ -853,7 +855,7 @@ body {
   padding-bottom: 25px;
 }
 #switch-content .switch-btn-container {
-  width: 270px;
+  width: 45.76271186440678%;
   vertical-align: top;
   text-align: center;
   float: left;
@@ -886,7 +888,7 @@ body {
   line-height: .9em;
 }
 .switch-section-content {
-  width: 590px;
+  width: 78.66666666666666%;
   float: right;
   margin-right: 40px;
 }
@@ -1269,5 +1271,20 @@ body {
   }
   #credits-img-container {
     max-width: 95%;
+  }
+  .switch-btn-container.vine button {
+    background-image: none;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  .switch-section-products {
+    margin-left: 0px;
+  }
+  .switch-section-products .switch-product {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .switch-section-products .switch-product .cr {
+    width: calc(100% - 100px);
   }
 }

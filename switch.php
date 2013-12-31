@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | Switch to Safer</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
     <div id="fb-root"></div>
@@ -39,7 +39,7 @@
                     <div class="clearfix">
                         <div id="switch-intro">
                             <div class="switch-header">
-                                <img src="images/switch/badge-safer.png" alt="Switch to safer">
+                                <div class="switch-logo-img"><img src="images/switch/badge-safer.png" alt="Switch to safer"></div>
                                 <p>Watch the film, and learn about safer products. Are your household products on our safe list?</p>
                             </div>
                             <div id="switch-buttons" class="clearfix">

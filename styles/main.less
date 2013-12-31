@@ -493,11 +493,13 @@ body {
 #screenings {
 
     .cl {
-        width: 430px;
+        .px-perc(430,960);
+        width: @perc;
     }
 
     .cr {
-        width: 390px;
+        .px-perc(390,960);
+        width: @perc;
         .round(10px);
         background: @gray10;
         padding: 25px 40px;
@@ -568,6 +570,8 @@ body {
 }
 
 #nav-switch {
+    .px-perc(230,960);
+    width: @perc;
     position: absolute;
     left: 0;
     top: 50px;
@@ -575,12 +579,14 @@ body {
 
 #switch-content {
     float: right;
-    width: 750px;
+    .px-perc(750,960);
+    width: @perc;
     background: @gray14;
 }
 
 #switch-intro {
-    width: 590px;
+    .px-perc(590,750);
+    width: @perc;
     margin-right: 40px;
     margin-top: 50px;
     float: right;
@@ -592,12 +598,16 @@ body {
     padding-bottom: 50px;
     width: 100%;
 
-    img {
-        width: 176px;
+    .switch-logo-img {
+        .px-perc(176,590);
+        width: @perc;
         .tc;
+        padding-right: 6%;
     }
+
     p {
-        width: 375px;
+        .px-perc(375,590);
+        width: @perc;
         .vac;
         .bb;
         .em(24);
@@ -614,7 +624,8 @@ body {
     }
 
     .switch-btn-container {
-        width: 270px;
+        .px-perc(270,590);
+        width: @perc;
         vertical-align: top;
         text-align: center;
         float: left;
@@ -649,7 +660,8 @@ body {
 }
 
 .switch-section-content {
-    width: 590px;
+    .px-perc(590,750);
+    width: @perc;
     float: right;
     margin-right: 40px;
 }
