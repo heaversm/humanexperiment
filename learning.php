@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | Learning</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
     <div id="container">
