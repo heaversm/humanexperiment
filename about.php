@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>The Human Experiment | About</title>
-    <link rel="stylesheet" href="styles/grid.css" />
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
 <body>
     <div id="container">

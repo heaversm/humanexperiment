@@ -750,7 +750,8 @@ body {
 }
 
 #about-header-title {
-    padding-left: 120px;
+    .px-perc(120,960);
+    padding-left: @perc;
     .ib;
     .bb;
     .vac;
@@ -775,7 +776,8 @@ body {
     .vac;
     line-height: 1.4em;
     .em(18);
-    padding-left: 120px;
+    .px-perc(120,960);
+    padding-left: @perc;
     padding-right: 40px;
 }
 
@@ -798,12 +800,14 @@ body {
 
 .filmmaker-photo {
     float:left;
-    width: 470px;
+    .px-perc(470,960);
+    width: @perc;
     .mw;
 }
 .filmmaker-bio {
     float: right;
-    width: 390px;
+    .px-perc(390,960);
+    width: @perc;
     margin-right: 40px;
 
     h3 {
