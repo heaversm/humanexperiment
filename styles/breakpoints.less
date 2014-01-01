@@ -137,7 +137,7 @@
     #screenings-container {
         padding-left: 40px;
         padding-right: 40px;
-        box-sizing: border-box;
+        .bb;
 
         .cl, .cr {
             float: none;
@@ -167,6 +167,7 @@
 
     #switch-buttons {
         padding-bottom: 0px;
+        text-align: center;
     }
 
     #switch-intro {
@@ -297,4 +298,54 @@
         margin-bottom: 40px;
     }
 
+}
+
+@media only screen and (max-width : 480px) {
+    #top-nav {
+        position: absolute;
+    }
+
+    #trailer-container {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .laurels-container {
+        display: none;
+    }
+
+    #switch-content {
+         .switch-btn-container {
+            width: 100%;
+         }
+    }
+
+    #join-content {
+        display: block;
+    }
+
+    #join-text {
+        display: block;
+        width: 100%;
+    }
+
+    #join-form {
+        display: block;
+        width: 100%;
+        .bb;
+        padding-left: 40px;
+    }
+
+    #credits-container {
+        height: auto;
+    }
+
+    #credits-featured-container {
+        display: none;
+    }
+
+    .credits-img {
+        border-bottom: 0px;
+        padding-bottom: 0px;
+    }
 }
