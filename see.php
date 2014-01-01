@@ -11,7 +11,7 @@
         <div id="see-header">
             <img src="images/see/see-title.png" alt="See the Film">
         </div>
-        <div id="screenings" class="container_24 clearfix">
+        <div id="screenings-container" class="container_24 clearfix">
             <div class="cl">
                 <h2>Upcoming Screenings</h2>
                 <div id="screenings">

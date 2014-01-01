@@ -758,14 +758,14 @@ body {
 #see-header img {
   margin-top: 50px;
 }
-#screenings {
+#screenings-container {
   margin-top: 40px;
   color: #414141;
 }
-#screenings .cl {
+#screenings-container .cl {
   width: 44.79166666666667%;
 }
-#screenings .cr {
+#screenings-container .cr {
   width: 40.625%;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -773,7 +773,7 @@ body {
   background: #fafafa;
   padding: 25px 40px;
 }
-#screenings h2 {
+#screenings-container h2 {
   font-size: 1.5em;
   color: #b7b7b7;
   margin-bottom: 40px;
@@ -867,11 +867,6 @@ body {
   -moz-font-smoothing: antialiased;
   font-family: 'museo_sans300';
 }
-#switch-content #switch-buttons {
-  text-align: left;
-  border-bottom: 1px solid #dcdcdc;
-  padding-bottom: 25px;
-}
 #switch-content .switch-btn-container {
   width: 45.76271186440678%;
   vertical-align: top;
@@ -884,6 +879,10 @@ body {
 #switch-content .switch-btn-container.vine button {
   letter-spacing: -1px;
   padding-left: 20px;
+}
+#switch-buttons {
+  text-align: left;
+  padding-bottom: 25px;
 }
 .switch-section-header {
   background: url('../images/switch/switch-section-bg.jpg');
@@ -918,7 +917,7 @@ body {
 }
 .switch-section-products {
   margin-top: 40px;
-  margin-left: -47px;
+  margin-left: -40px;
 }
 .switch-product {
   border-radius: 5px;
@@ -932,10 +931,10 @@ body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  width: 270px;
-  margin-left: 46px;
+  width: 269px;
+  margin-left: 40px;
   display: inline-block;
-  margin-bottom: 46px;
+  margin-bottom: 40px;
 }
 .switch-product .cl {
   margin-left: 0;
@@ -1286,6 +1285,9 @@ body {
   #lobby-img {
     max-width: 95%;
   }
+  #join-form {
+    padding-right: 40px;
+  }
   #join-form input {
     display: block;
   }
@@ -1351,5 +1353,67 @@ body {
   }
   #update-button {
     margin-left: 40px;
+  }
+  #screenings-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  #screenings-container .cl,
+  #screenings-container .cr {
+    float: none;
+    width: 100%;
+  }
+  #screenings-container .cl {
+    margin-left: 0px;
+  }
+  #screenings-container .cr {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  #nav-switch {
+    margin-left: 0px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    position: inherit;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .nav-page a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 0.875em;
+    margin-bottom: 10px;
+  }
+  #switch-content {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  #switch-buttons {
+    padding-bottom: 0px;
+  }
+  #switch-intro {
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: none;
+    width: 100%;
+  }
+  .switch-section-content {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   }
 }

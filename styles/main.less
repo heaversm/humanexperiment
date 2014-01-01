@@ -509,7 +509,7 @@ body {
     }
 }
 
-#screenings {
+#screenings-container {
 
     .cl {
         .px-perc(430,960);
@@ -636,12 +636,6 @@ body {
 
 #switch-content {
 
-    #switch-buttons {
-        text-align: left;
-        border-bottom: 1px solid @gray12;
-        padding-bottom: 25px;
-    }
-
     .switch-btn-container {
         .px-perc(270,590);
         width: @perc;
@@ -659,6 +653,11 @@ body {
         }
 
     }
+}
+
+#switch-buttons {
+    text-align: left;
+    padding-bottom: 25px;
 }
 
 .switch-section-header {
@@ -694,7 +693,7 @@ body {
 
 .switch-section-products {
     margin-top: 40px;
-    margin-left: -47px;
+    margin-left: -40px;
 }
 
 .switch-product {
@@ -703,10 +702,10 @@ body {
     .shadow(5px);
     padding: 15px;
     .bb;
-    width: 270px;
-    margin-left: 46px;
+    width: 269px;
+    margin-left: 40px;
     display: inline-block;
-    margin-bottom: 46px;
+    margin-bottom: 40px;
 
     .cl {
         margin-left: 0;
