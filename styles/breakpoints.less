@@ -155,20 +155,9 @@
     }
 
     #nav-switch {
-        margin-left: 0px;
-        .round(0px);
-        position: inherit;
-        width: 100%;
-        top: 0;
-        left: 0;
+        display: none;
     }
 
-    .nav-page a {
-        display: inline-block;
-        margin-right: 20px;
-        .em(14);
-        margin-bottom: 10px;
-    }
 
     #switch-content {
         float: none;
@@ -195,6 +184,117 @@
         padding-left: 40px;
         padding-right: 40px;
         .bb;
+    }
+
+    #about-header-title {
+        width: 100%;
+        padding: 0px;
+        display: inline-block;
+
+        h1 {
+            font-size: 4.5em;
+            margin-top: 40px;
+            .border5 {
+                font-size: 100px;
+            }
+        }
+    }
+
+    #about-header-text {
+        padding-left: 40px;
+        padding-right: 40px;
+        display: block;
+        .em(14);
+    }
+
+    #about-content {
+        .border5 {
+            font-size: 7em;
+        }
+    }
+
+    .filmmaker-bio {
+        h3 {
+            .em(20);
+        }
+        p {
+            .em(12);
+        }
+    }
+
+    #press-quotes {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .press-quote {
+        width: 100%;
+        text-align: left;
+        padding: 40px;
+        .bb;
+        border-bottom: 1px solid @gray10;
+        margin-left: 0px;
+    }
+
+    .quote-container {
+        width: 60%;
+        float: left;
+        border-bottom: 0px;
+        display: block;
+        height: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .quote-logo-container {
+        float: right;
+        width: 30%;
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .vac {
+        display: block;
+    }
+
+    #learning-title {
+        h1 {
+            font-size: 7em;
+        }
+    }
+
+    .article-title {
+        font-size: 1.4em;
+    }
+
+    #learning-content {
+        .cl, .cr {
+            float: none;
+            width: 100%;
+        }
+        .cl {
+            margin-left: 0px;
+            padding-left: 40px;
+            padding-right: 40px;
+            .bb;
+        }
+
+        .cr {
+            padding-right: 40px;
+        }
+    }
+
+    #action-container {
+        text-align: center;
+    }
+
+    .learning-content p:last-child {
+        margin-bottom: 0px;
+    }
+
+    .learning-nav {
+        margin-bottom: 40px;
     }
 
 }

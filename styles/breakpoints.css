@@ -120,7 +120,7 @@
 }
 .border5 {
   border: 5px solid white;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
   font-family: 'muncieregular';
   display: inline-block;
 }
@@ -136,7 +136,7 @@
 }
 .section-header {
   border: 5px solid white;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
   font-family: 'muncieregular';
   color: white;
   display: inline-block;
@@ -895,7 +895,7 @@ body {
 }
 .switch-section-header h2 {
   border: 5px solid white;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
   font-family: 'muncieregular';
   display: inline-block;
   font-size: 8.125em;
@@ -1372,20 +1372,7 @@ body {
     margin-top: 40px;
   }
   #nav-switch {
-    margin-left: 0px;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 0px;
-    position: inherit;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
-  .nav-page a {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 0.875em;
-    margin-bottom: 10px;
+    display: none;
   }
   #switch-content {
     float: none;
@@ -1415,5 +1402,96 @@ body {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+  }
+  #about-header-title {
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+  }
+  #about-header-title h1 {
+    font-size: 4.5em;
+    margin-top: 40px;
+  }
+  #about-header-title h1 .border5 {
+    font-size: 100px;
+  }
+  #about-header-text {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+    font-size: 0.875em;
+  }
+  #about-content .border5 {
+    font-size: 7em;
+  }
+  .filmmaker-bio h3 {
+    font-size: 1.25em;
+  }
+  .filmmaker-bio p {
+    font-size: 0.75em;
+  }
+  #press-quotes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .press-quote {
+    width: 100%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #fafafa;
+    margin-left: 0px;
+  }
+  .quote-container {
+    width: 60%;
+    float: left;
+    border-bottom: 0px;
+    display: block;
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .quote-logo-container {
+    float: right;
+    width: 30%;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .vac {
+    display: block;
+  }
+  #learning-title h1 {
+    font-size: 7em;
+  }
+  .article-title {
+    font-size: 1.4em;
+  }
+  #learning-content .cl,
+  #learning-content .cr {
+    float: none;
+    width: 100%;
+  }
+  #learning-content .cl {
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  #learning-content .cr {
+    padding-right: 40px;
+  }
+  #action-container {
+    text-align: center;
+  }
+  .learning-content p:last-child {
+    margin-bottom: 0px;
+  }
+  .learning-nav {
+    margin-bottom: 40px;
   }
 }
