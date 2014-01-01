@@ -3,7 +3,7 @@
         <div id="footer-email-content" class="clearfix">
             <div class="footer-logo"><img src="images/footer/logo-footer.png" alt="The Human Experiment"></div>
             <div id="email-text-container" class="fr">
-                <a href=""><img src="images/footer/icon-email.png" alt="Email" class="email-icon"></a>
+                <a class="email-icon-link"><img src="images/footer/icon-email.png" alt="Email" class="email-icon"></a>
                 <p class="email-text">
                     <a href="mailto:thehumanexperimentmovie.com">Contact Us<br/>
                     thehumanexperimentmovie.com</a>
