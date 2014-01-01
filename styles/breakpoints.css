@@ -276,6 +276,7 @@ body {
 #container {
   width: 100%;
   overflow: hidden;
+  min-width: 320px;
 }
 #header-container {
   background: url('../images/structure/header-bg.jpg') repeat-x top left;
@@ -882,7 +883,6 @@ body {
   padding-left: 20px;
 }
 #switch-buttons {
-  text-align: left;
   padding-bottom: 25px;
 }
 .switch-section-header {
@@ -1670,9 +1670,6 @@ body {
     width: 100%;
     margin-bottom: 0px;
   }
-  #switch-buttons {
-    padding: 0px;
-  }
   .switch-section-header h2 {
     font-size: 6.125em;
     line-height: 1.2em;
@@ -1698,5 +1695,8 @@ body {
   #learning-title h1 {
     font-size: 6em;
     margin: 0 40px;
+  }
+  #stats-lobby-container {
+    display: none;
   }
 }
