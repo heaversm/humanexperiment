@@ -42,15 +42,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/trailer\/credit-sean-penn.png" : {
+    "\/images\/press\/laurel.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
-      "initialSize" : 15654,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "initialSize" : 13699,
+      "fileType" : 8192
+    },
+    "\/images\/laurels\/mill-valley.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "initialSize" : 7006,
       "fileType" : 8192
     },
     "\/images\/stats\/stats-bg.jpg" : {
@@ -73,17 +84,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/credits\/credit-ktf.png",
       "initialSize" : 2456,
-      "fileType" : 8192
-    },
-    "\/images\/laurels\/mill-valley.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
-      "initialSize" : 7006,
       "fileType" : 8192
     },
     "\/images\/switch\/logo-vine.png" : {
@@ -126,15 +126,15 @@
       "initialSize" : 23850,
       "fileType" : 4096
     },
-    "\/images\/press\/laurel.png" : {
+    "\/images\/trailer\/credit-sean-penn.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "inputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
-      "initialSize" : 13699,
+      "outputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "initialSize" : 15654,
       "fileType" : 8192
     },
     "\/images\/trailer\/trailer-bg.jpg" : {
@@ -209,23 +209,6 @@
       "initialSize" : 6764,
       "fileType" : 4096
     },
-    "\/styles\/main.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/main.less",
-      "outputAbbreviatedPath" : "\/styles\/main.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/includes\/credits.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -234,6 +217,17 @@
       "inputAbbreviatedPath" : "\/includes\/credits.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/images\/structure\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "initialSize" : 4680,
+      "fileType" : 8192
     },
     "\/styles\/common.less" : {
       "ieCompatibility" : 1,
@@ -252,16 +246,22 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/images\/overlay\/logo-cancer.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/styles\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/main.less",
+      "outputAbbreviatedPath" : "\/styles\/main.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
-      "initialSize" : 6971,
-      "fileType" : 8192
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/images\/trailer\/play-btn.png" : {
       "ignoreWasSetByUser" : 0,
@@ -285,15 +285,15 @@
       "initialSize" : 2758,
       "fileType" : 8192
     },
-    "\/images\/structure\/logo.png" : {
+    "\/images\/overlay\/logo-cancer.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "inputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
-      "initialSize" : 4680,
+      "outputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
+      "initialSize" : 6971,
       "fileType" : 8192
     },
     "\/styles\/main.css" : {
@@ -305,17 +305,6 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/images\/stats\/stats-lobby-text.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
-      "initialSize" : 3768,
-      "fileType" : 8192
-    },
     "\/images\/stats\/stat.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -325,6 +314,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/stats\/stat.png",
       "initialSize" : 49210,
+      "fileType" : 8192
+    },
+    "\/images\/stats\/stats-lobby-text.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-text.png",
+      "initialSize" : 3768,
       "fileType" : 8192
     },
     "\/images\/see\/host-title.png" : {
@@ -453,15 +453,6 @@
       "initialSize" : 994,
       "fileType" : 8192
     },
-    "\/switch.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/switch.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/press\/laurel.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -472,6 +463,15 @@
       "outputAbbreviatedPath" : "\/images\/press\/laurel.jpg",
       "initialSize" : 14616,
       "fileType" : 4096
+    },
+    "\/switch.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/switch.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/switch\/products\/avalon.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -484,17 +484,6 @@
       "initialSize" : 7297,
       "fileType" : 4096
     },
-    "\/images\/trailer\/trailer-cta.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
-      "initialSize" : 40297,
-      "fileType" : 8192
-    },
     "\/images\/stats\/stats-lobby-number.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -505,6 +494,17 @@
       "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
       "initialSize" : 5446,
       "fileType" : 8192
+    },
+    "\/images\/about\/bg-about.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "initialSize" : 140655,
+      "fileType" : 4096
     },
     "\/includes\/join.php" : {
       "ignoreWasSetByUser" : 0,
@@ -555,16 +555,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/about\/bg-about.jpg" : {
+    "\/images\/trailer\/trailer-cta.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
-      "initialSize" : 140655,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "initialSize" : 40297,
+      "fileType" : 8192
     },
     "\/images\/stats\/stats-lobby-bg.jpg" : {
       "ignoreWasSetByUser" : 0,

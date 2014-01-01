@@ -376,6 +376,11 @@ body {
 }
 #credit-sean-penn {
   margin-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 .laurels-container {
   margin-left: -35px;
@@ -477,6 +482,7 @@ body {
   border-top: 1px solid #e5e5e5;
   margin-top: 60px;
   padding-top: 60px;
+  text-align: center;
 }
 #switch-products .product {
   margin-left: 48px;
@@ -1142,6 +1148,9 @@ body {
   margin-left: 4%;
   display: inline-block;
 }
+#awards-images .awards-image img {
+  max-width: 100%;
+}
 #press-blog {
   padding: 40px;
   box-sizing: border-box;
@@ -1315,5 +1324,32 @@ body {
   }
   #btn-join-submit {
     margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #cta-text-container {
+    width: 45%;
+    font-size: 1.125em;
+    line-height: 25px;
+  }
+  #switch-btn {
+    font-size: 16px;
+    padding: 15px 25px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  #email-text-container {
+    float: none;
+  }
+  #email-legal .fl,
+  #email-legal .fr {
+    width: auto;
+    float: none;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  #update-button {
+    margin-left: 40px;
   }
 }
