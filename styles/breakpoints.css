@@ -275,6 +275,7 @@ body {
 }
 #container {
   width: 100%;
+  overflow: hidden;
 }
 #header-container {
   background: url('../images/structure/header-bg.jpg') repeat-x top left;
@@ -1501,6 +1502,8 @@ body {
 @media only screen and (max-width: 480px) {
   #top-nav {
     position: absolute;
+    margin-right: 0px;
+    float: none;
   }
   #trailer-container {
     height: auto;
@@ -1536,5 +1539,36 @@ body {
   .credits-img {
     border-bottom: 0px;
     padding-bottom: 0px;
+  }
+  .filmmaker {
+    margin-top: 40px;
+  }
+  .filmmaker-photo {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 40px;
+  }
+  .filmmaker-bio {
+    padding: 40px 40px 0 40px;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .filmmaker-bio h3 {
+    font-size: 1.5em;
+  }
+  .filmmaker-bio p {
+    font-size: 1em;
+  }
+  .filmmaker:nth-child(odd) .filmmaker-bio {
+    margin: 0;
+  }
+  #about-content-container {
+    margin: 40px auto;
   }
 }

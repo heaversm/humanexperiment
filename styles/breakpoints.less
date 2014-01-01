@@ -301,8 +301,11 @@
 }
 
 @media only screen and (max-width : 480px) {
+
     #top-nav {
         position: absolute;
+        margin-right: 0px;
+        float: none;
     }
 
     #trailer-container {
@@ -348,4 +351,41 @@
         border-bottom: 0px;
         padding-bottom: 0px;
     }
+
+    .filmmaker {
+        margin-top: 40px;
+    }
+
+    .filmmaker-photo {
+        float: none;
+        width: 100%;
+        .bb;
+        padding: 0 40px;
+    }
+
+    .filmmaker-bio {
+        padding: 40px 40px 0 40px;
+        float: none;
+        width: 100%;
+        .bb;
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+    }
+
+    .filmmaker:nth-child(odd) .filmmaker-bio {
+        margin: 0;
+    }
+
+    #about-content-container {
+        margin: 40px auto;
+    }
+
+
 }

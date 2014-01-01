@@ -12,7 +12,7 @@
         </div>
         <div id="email-legal" class="clearfix">
             <p class="fl">
-                Publicity Adam Segal 2050 Group • (202) 422-4673 Sales <br/>
+                Publicity Adam Segal 2050 Group • <span class="phone">(202) 422-4673 Sales</span> <br/>
                 Josh Braun Submarine Entertainment
             </p>
             <p class="fr">
