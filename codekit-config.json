@@ -33,15 +33,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/trailer\/credit-sean-penn.png" : {
+    "\/images\/press\/laurel.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
-      "initialSize" : 15654,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "initialSize" : 13699,
       "fileType" : 8192
     },
     "\/images\/laurels\/mill-valley.png" : {
@@ -55,17 +55,6 @@
       "initialSize" : 7006,
       "fileType" : 8192
     },
-    "\/images\/stats\/stats-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
-      "initialSize" : 33103,
-      "fileType" : 4096
-    },
     "\/images\/credits\/credit-ktf.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -77,16 +66,27 @@
       "initialSize" : 2456,
       "fileType" : 8192
     },
-    "\/scripts\/vendor\/modernizr.custom.68813.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/images\/stats\/stats-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.68813.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.68813-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
+      "initialSize" : 33103,
+      "fileType" : 4096
+    },
+    "\/images\/switch\/logo-vine.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "initialSize" : 3223,
+      "fileType" : 8192
     },
     "\/includes\/product.php" : {
       "ignoreWasSetByUser" : 0,
@@ -106,17 +106,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/press\/laurel.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
-      "initialSize" : 13699,
-      "fileType" : 8192
-    },
     "\/images\/learning\/bg-learning.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -127,6 +116,17 @@
       "outputAbbreviatedPath" : "\/images\/learning\/bg-learning.jpg",
       "initialSize" : 23850,
       "fileType" : 4096
+    },
+    "\/scripts\/vendor\/modernizr.custom.68813.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.68813.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.68813-ck.js",
+      "fileType" : 64
     },
     "\/images\/trailer\/trailer-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -189,27 +189,16 @@
       "initialSize" : 64245,
       "fileType" : 4096
     },
-    "\/images\/switch\/logo-vine.png" : {
+    "\/images\/trailer\/credit-sean-penn.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "inputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
-      "initialSize" : 3223,
+      "outputAbbreviatedPath" : "\/images\/trailer\/credit-sean-penn.png",
+      "initialSize" : 15654,
       "fileType" : 8192
-    },
-    "\/images\/switch\/products\/fair-trade.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "initialSize" : 6764,
-      "fileType" : 4096
     },
     "\/includes\/credits.php" : {
       "ignoreWasSetByUser" : 0,
@@ -219,6 +208,23 @@
       "inputAbbreviatedPath" : "\/includes\/credits.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/styles\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/main.less",
+      "outputAbbreviatedPath" : "\/styles\/main.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/images\/structure\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -270,43 +276,6 @@
       "initialSize" : 5034,
       "fileType" : 8192
     },
-    "\/images\/see\/see-title.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/see\/see-title.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/see\/see-title.png",
-      "initialSize" : 2758,
-      "fileType" : 8192
-    },
-    "\/styles\/main.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/main.less",
-      "outputAbbreviatedPath" : "\/styles\/main.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/styles\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/styles\/main.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-    },
     "\/scripts\/modernize.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -317,6 +286,37 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/scripts\/modernize-ck.js",
       "fileType" : 64
+    },
+    "\/images\/switch\/products\/fair-trade.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "initialSize" : 6764,
+      "fileType" : 4096
+    },
+    "\/styles\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/main.css",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/see\/see-title.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "initialSize" : 2758,
+      "fileType" : 8192
     },
     "\/images\/stats\/stat.png" : {
       "ignoreWasSetByUser" : 0,
@@ -350,6 +350,17 @@
       "outputAbbreviatedPath" : "\/images\/see\/host-title.png",
       "initialSize" : 2959,
       "fileType" : 8192
+    },
+    "\/scripts\/vendor\/modernizr.custom.13264.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.13264.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/modernizr.custom.13264-ck.js",
+      "fileType" : 64
     },
     "\/images\/footer\/icon-email.png" : {
       "ignoreWasSetByUser" : 0,
@@ -530,6 +541,17 @@
       "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery-1.10.2.min-ck.js",
       "fileType" : 64
     },
+    "\/images\/trailer\/trailer-cta.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "initialSize" : 40297,
+      "fileType" : 8192
+    },
     "\/images\/stats\/stats-lobby-number.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -540,17 +562,6 @@
       "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
       "initialSize" : 5446,
       "fileType" : 8192
-    },
-    "\/images\/about\/bg-about.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
-      "initialSize" : 140655,
-      "fileType" : 4096
     },
     "\/images\/structure\/header-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -563,15 +574,6 @@
       "initialSize" : 15959,
       "fileType" : 4096
     },
-    "\/includes\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/includes\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/about\/filmmaker-don.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -583,15 +585,6 @@
       "initialSize" : 48176,
       "fileType" : 4096
     },
-    "\/includes\/join.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/includes\/join.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/template.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -601,16 +594,34 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/trailer\/trailer-cta.png" : {
+    "\/images\/about\/bg-about.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
+      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/trailer\/trailer-cta.png",
-      "initialSize" : 40297,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "initialSize" : 140655,
+      "fileType" : 4096
+    },
+    "\/includes\/join.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/join.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/includes\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/stats\/stats-lobby-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -676,6 +687,17 @@
       "initialSize" : 5229,
       "fileType" : 4096
     },
+    "\/scripts\/vendor\/polycalc.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/polycalc.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/polycalc-ck.js",
+      "fileType" : 64
+    },
     "\/images\/credits\/credit-fledgling.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -718,17 +740,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/switch\/products\/molly.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
-      "initialSize" : 6705,
-      "fileType" : 4096
-    },
     "\/scripts\/vendor\/jquery.placeholder.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -739,6 +750,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder-ck.js",
       "fileType" : 64
+    },
+    "\/images\/switch\/products\/molly.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
+      "initialSize" : 6705,
+      "fileType" : 4096
     },
     "\/about.php" : {
       "ignoreWasSetByUser" : 0,

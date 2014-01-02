@@ -1650,6 +1650,12 @@ body {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
   }
+  #switch-buttons {
+    padding: 0;
+  }
+  .switch-section-products .switch-product .cr {
+    width: 55%;
+  }
   #cta-text-container {
     width: 100%;
     margin-top: 40px;

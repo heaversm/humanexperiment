@@ -5,5 +5,12 @@ Modernizr.load({
     if (!Modernizr.input.placeholder){
         $('input, textarea').placeholder();
     }
+  },
+  test: Modernizr.csscalc,
+  nope : 'scripts/vendor/polycalc.js',
+  complete: function(){
+    if (!Modernizr.csscalc){
+
+    }
   }
 });
