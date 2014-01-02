@@ -236,6 +236,7 @@ nav a {
 }
 img {
   max-width: 100%;
+  border: 0;
 }
 @font-face {
   font-family: 'museo_sans500';

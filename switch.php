@@ -97,12 +97,12 @@
             </div>
 
         </div>
-
-
-
         <?php require_once 'includes/join.php' ?>
         <?php require_once 'includes/credits.php' ?>
         <?php require_once 'includes/footer.php' ?>
     </div>
+    <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
+    <script src="scripts/vendor/modernizr.custom.68813.js"></script>
+    <script src="scripts/modernize.js"></script>
 </body>
 </html>
