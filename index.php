@@ -11,7 +11,7 @@
         <?php require_once 'includes/header.php' ?>
         <div id="trailer-container">
             <div id="trailer-content" class="container_24">
-                <div id="video-container">
+                <div id="video-container" class="aspect-resize" data-ratio="1.6441">
                     <div id="video-cta">
                         <img class="video-title" src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
                         <a class="play-btn-container">
@@ -61,7 +61,7 @@
 
             </div>
         </div>
-        <div id="stats-container">
+        <div id="stats-container" class="aspect-resize" data-ratio="1.92">
             <div id="stats-content">
                 <img src="images/stats/stat.png" alt="68%" class="stat-number">
                 <h2 class="stat-text">Vivamus consectetur nunc alfiquet mattis <br/>Maecenas mauris augue scelerisque vel convallis</h2>
@@ -99,7 +99,7 @@
                 </div>
             </div>
         </div>
-        <div id="stats-lobby-container">
+        <div id="stats-lobby-container" class="aspect-resize" data-ratio="1.92">
             <div id="stats-lobby" class="container_24">
                 <img id="lobby-img" src="images/stats/stats-lobby-number.png" alt="52,000,000">
             </div>
@@ -161,5 +161,6 @@ business practices.</p>
     <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
     <script src="scripts/vendor/modernizr.custom.68813.js"></script>
     <script src="scripts/modernize.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

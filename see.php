@@ -62,5 +62,6 @@ us your details and we be back in touch!</p>
     <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
     <script src="scripts/vendor/modernizr.custom.68813.js"></script>
     <script src="scripts/modernize.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

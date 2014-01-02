@@ -349,7 +349,7 @@ body {
   max-width: 95%;
 }
 #video-cta-text {
-  margin-top: 130px;
+  margin-top: 22.52252252252252%;
 }
 .play-btn-container {
   position: relative;
@@ -1592,6 +1592,9 @@ body {
   #top-nav {
     right: 20px;
   }
+  .play-btn-text {
+    display: none;
+  }
   #update-text {
     display: block;
     width: 100%;
@@ -1636,7 +1639,7 @@ body {
     margin-left: 0;
   }
   #switch-buttons {
-    padding: 0 40px;
+    padding: 0px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -1646,6 +1649,7 @@ body {
   }
   #switch-buttons .switch-btn-container {
     width: 100%;
+    float: none;
   }
   .email-icon-link {
     display: none;

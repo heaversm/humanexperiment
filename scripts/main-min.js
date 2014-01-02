@@ -1,0 +1,1 @@
+var site=function(e,t,n){function r(){i()}function i(){s()}function s(){n(e).resize(function(){o()})}function o(){n(".aspect-resize").each(function(){var e=n(this),t=e.width();e.height(t/e.data("ratio"))})}return{init:r}}(window,document,jQuery);window.onload=function(){site.init()};
