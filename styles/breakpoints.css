@@ -855,6 +855,9 @@ body {
   vertical-align: top;
   padding-right: 6%;
 }
+.switch-header .switch-logo-img img {
+  max-width: 100%;
+}
 .switch-header p {
   width: 63.559322033898304%;
   display: table-cell;
@@ -1285,6 +1288,7 @@ body {
   }
   #lobby-img {
     max-width: 95%;
+    width: 95%;
   }
   #join-form {
     padding-right: 40px;
@@ -1661,9 +1665,13 @@ body {
   #credits-content {
     display: none;
   }
+  .switch-header {
+    display: block;
+  }
   .switch-header .switch-logo-img {
     display: block;
     width: 100%;
+    padding: 0px;
   }
   .switch-header p {
     display: block;
@@ -1685,6 +1693,9 @@ body {
     float: none;
     width: 100%;
     text-align: center;
+  }
+  .quote-container h3 {
+    display: block;
   }
   .quote-logo-container {
     margin-top: 20px;
