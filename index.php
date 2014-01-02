@@ -5,7 +5,7 @@
     <title>The Human Experiment | Home</title>
     <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>
-<body>
+<body id="pg-home">
     <div id="fb-root"></div>
     <div id="container">
         <?php require_once 'includes/header.php' ?>
@@ -14,7 +14,7 @@
                 <div id="video-container" class="aspect-resize" data-ratio="1.6441">
                     <div id="video-cta">
                         <img class="video-title" src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
-                        <a class="play-btn-container">
+                        <a class="play-btn-container scrollfx" data-fx="opacity">
                             <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
                             <p class="play-btn-text">WATCH THE TRAILER</p>
                         </a>
@@ -162,5 +162,6 @@ business practices.</p>
     <script src="scripts/vendor/modernizr.custom.68813.js"></script>
     <script src="scripts/modernize.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/scrollFunctionsHome.js"></script>
 </body>
 </html>
