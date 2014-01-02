@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1">
     <title>The Human Experiment | About</title>
     <link rel="stylesheet" href="styles/breakpoints.css"/>
 </head>

@@ -15,7 +15,11 @@ var site =  (function (window,document, $){
         $('#top-nav').click(function(e){
             var $el = $(this);
             if (document.documentElement.clientWidth < 960) {
-                $el.toggleClass('active');
+                if ($el.hasClass('active')){
+                    $el.removeClass('active').addClass('inactive');
+                } else {
+                    $el.removeClass('inactive').addClass('active');
+                }
             }
         })
     }

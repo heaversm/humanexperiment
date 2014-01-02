@@ -27,6 +27,10 @@
         height: auto;
     }
 
+    #top-nav.inactive {
+        height: 50px;
+    }
+
     .laurels-container {
         margin-left: -4%;
         .laurel {
@@ -103,10 +107,22 @@
 }
 
 @media only screen and (max-width : 767px) {
+
     #cta-text-container {
         width: 45%;
         .em(18);
         line-height: 25px;
+    }
+
+    #stats-content {
+        .stat-number {
+            width: 40%;
+        }
+
+        .stat-text {
+            font-size: 1.25em;
+            margin-top: 15px;
+        }
     }
 
     #switch-btn {
@@ -318,10 +334,26 @@
         display: none;
     }
 
+    #stats-container {
+        display: none;
+    }
+
     #switch-content {
          .switch-btn-container {
             width: 100%;
          }
+    }
+
+    #switch-buttons {
+        padding: 0px 40px;
+        .bb;
+        .ib {
+            display: block;
+        }
+        .switch-btn-container {
+            width: 100%;
+            float: none;
+        }
     }
 
     #join-content {
@@ -443,17 +475,6 @@
         margin-left: 0;
     }
 
-    #switch-buttons {
-        padding: 0px;
-        .bb;
-        .ib {
-            display: block;
-        }
-        .switch-btn-container {
-            width: 100%;
-            float: none;
-        }
-    }
     .email-icon-link {
         display: none;
     }
