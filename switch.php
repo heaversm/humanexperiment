@@ -21,8 +21,8 @@
         <?php require_once 'includes/header.php' ?>
         <div id="switch-container" class="container_24 clearfix">
             <div id="nav-switch" class="nav-page scrollfx" data-id="nav-switch">
-                <a href="">Shampoo</a>
-                <a href="">Conditioner</a>
+                <a href="#section-shampoo">Shampoo</a>
+                <a href="#section-conditioner">Conditioner</a>
                 <a href="">Baby Bath Products</a>
                 <a href="">Shaving Cream</a>
                 <a href="">Deoderant</a>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
 
-                    <div class="switch-section clearfix">
+                    <div class="switch-section clearfix" id="section-conditioner">
                         <div class="switch-section-header">
                             <h2 class="section-header">Conditioner</h2>
                         </div>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
 
-                    <div class="switch-section clearfix">
+                    <div class="switch-section clearfix" id="section-shampoo">
                         <div class="switch-section-header">
                             <h2 class="section-header">Shampoo</h2>
                         </div>

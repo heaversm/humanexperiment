@@ -9,6 +9,7 @@ var site =  (function (window,document, $){
         addResizeListener();
         addNavListener();
         addScrollListener();
+        addAnchorScrollListener();
     }
     function addResizeListener(){
         $(window).resize(function() {
@@ -32,6 +33,21 @@ var site =  (function (window,document, $){
         if (scrollElements.length > 0){
             scrollFunctions(scrollElements);
         }
+    }
+    function addAnchorScrollListener(){
+        $('a[href*=#]:not([href=#])').click(function() {
+            console.log('asl');
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 500);
+                    return false;
+                }
+            }
+        });
     }
     function aspectResize(){
         $('.aspect-resize').each(function(){
