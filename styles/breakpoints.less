@@ -23,12 +23,24 @@
     .header-link:last-child {
         .br(0px,0px,5px,5px);
     }
+    #top-nav {
+        .header-link {
+            opacity: 0;
+            .transition(all .3s ease-in);
+        }
+    }
     #top-nav:hover, #top-nav.active {
         height: auto;
+        .header-link {
+            opacity: 1;
+        }
     }
 
     #top-nav.inactive {
         height: 50px;
+        .header-link {
+            opacity: 0;
+        }
     }
 
     .laurels-container {
