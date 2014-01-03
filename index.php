@@ -89,11 +89,11 @@
                 <div id="switch-buttons">
                     <div class="ib">
                         <div class="switch-btn-container">
-                            <button class="btn-round">WHY THESE PRODUCTS</button>
+                            <button class="btn-modal btn-round" data-id="overlay-faq">WHY THESE PRODUCTS</button>
                             <p>Click to learn more about<br/>these products</p>
                         </div>
                         <div class="switch-btn-container vine">
-                            <button class="btn-round">IN PARTNERSHIP<br/>WITH VINE.COM</button>
+                            <button class="btn-round btn-modal" data-id="overlay-vine">IN PARTNERSHIP<br/>WITH VINE.COM</button>
                             <p>20% off your first order<br/>10% to non-profits for change</p>
                         </div>
                     </div>
@@ -111,53 +111,8 @@
     </div>
     <div id="overlay-container">
         <div class="overlay-bg"></div>
-        <div id="overlay-vine" class="overlay-content">
-            <a href="" class="close-btn"><img src="images/structure/btn-close.gif" alt="Close"></a>
-            <div id="vine-logos">
-                <a href=""><img src="images/overlay/logo-cancer.png" alt="Breast Cancer Foundation"></a>
-                <a href=""><img src="images/overlay/logo-vine.gif" alt="Vine"></a>
-                <a href=""><img src="images/overlay/logo-ecology.gif" alt="Ecology Center"></a>
-                <p class="vine-promo">In partnership with <a href="http://vine.com">vine.com</a> 20% off your order.<br/>
-10% goes to Breast Cancer and the Ecology Center</p>
-            </div>
-            <div class="promo-details">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum justo sit amet
-pellentesque volutpat. Vivamus fringilla mollis magna eu laoreet. Fusce scelerisque
-mollis quam eu sollicitudin. Maecenas vel augue eget enim posuere facilisis. Nulla facilisi.
-Mauris eget augue ultrices, sagittis arcu mattis, adipiscing velit. Mauris elementum, lorem
-vitae auctor lacinia, risus massa congue mauris, porta lacinia nisl lorem eget nunc. </p><p>
-Maecenas et ultricies magna. Integer eu urna a ligula consequat varius. Suspendisse
-ultricies egestas ullamcorper. Nulla eu facilisis odio. Pellentesque luctus est vitae justo
-pellentesque accumsan. Quisque dapibus enim vel quam condimentum, et malesuada
-erat hendrerit. Cras faucibus orci ut risus tristique congue. Morbi dapibus varius leo, a
-luctus neque viverra non. Praesent eu tristique augue.</p>
-
-            </div>
-        </div>
-        <div id="overlay-faq" class="overlay-content" >
-            <a href="" class="close-btn"><img src="images/structure/btn-close.gif" alt="Close"></a>
-            <div class="overlay-text">
-                <h3>Why these products?</h3>
-                <p>All product decisions on this website and in the film have been
-approved by our advisory board. The Human Experiment
-Advisory Board consists of 12 members from top Universities and
-research institutions.</p>
-                <h3>Who are the members of the advisory board?</h3>
-                <p>Dr. Connie Engel, is an expert on the conjunction of science and
-advocacy in the environmental breast cancer movement. She is the
-Science and Education Manager for the Breast Cancer Fund.</p>
-
-<p>Dr. Sarah Janssen was a past Staff Scientist for the NRDC where she
-provided scientific expertise for policy and regulatory decisions on a
-number of toxic chemicals. She now is an Assistant Professor for
-UCSF School of Medicine.</p>
-
-<p>Lauren Heine is the Consulting Co-Director, Green Screen & Applied
-Science for Clean Production Action. She applies green chemistry,
-green engineering and design for the environment for sustainable
-business practices.</p>
-            </div>
-        </div>
+        <?php require_once 'includes/overlay-vine.php' ?>
+        <?php require_once 'includes/overlay-faq.php' ?>
     </div>
     <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
     <script src="scripts/vendor/modernizr.custom.68813.js"></script>

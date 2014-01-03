@@ -98,6 +98,25 @@
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
+.flex {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-center {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+}
 .nav-page {
   background: #288982;
   width: 230px;
@@ -190,6 +209,7 @@ button {
   -moz-font-smoothing: antialiased;
   font-family: 'museo_sans700';
   margin: 0;
+  outline: none;
 }
 a,
 button {
@@ -667,25 +687,45 @@ body {
   top: 0;
   left: 0;
   display: none;
+  z-index: 1;
+}
+#overlay-container.active {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1000;
 }
 .overlay-bg {
-  background: white;
-  background: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .overlay-content {
-  width: 790px;
-  position: absolute;
+  /* width: 790px;*/
+  width: 82.29166666666666%;
+  position: relative;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-  left: 50%;
-  margin-left: -390px;
-  top: 100px;
+  /*left: 50%;
+    margin-left: -390px;
+    top: 100px;*/
+  margin: 0 auto;
   text-align: center;
   background: white;
   box-sizing: border-box;
@@ -694,9 +734,14 @@ body {
   padding: 15px;
   color: #666666;
   display: none;
+  opacity: 0;
 }
 .overlay-content .close-btn {
   float: right;
+}
+.overlay-content.active {
+  display: block;
+  z-index: 999;
 }
 #overlay-faq h3 {
   color: #288982;

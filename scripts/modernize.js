@@ -6,11 +6,11 @@ Modernizr.load({
         $('input, textarea').placeholder();
     }
   },
-  test: Modernizr.csscalc,
+ /* test: Modernizr.csscalc,
   nope : 'scripts/vendor/polycalc.js',
   complete: function(){
     if (!Modernizr.csscalc){
 
     }
-  }
+  }*/
 });

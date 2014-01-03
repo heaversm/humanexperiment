@@ -147,15 +147,32 @@
 }
 
 .cl {
-  float: left;
+  .fl;
   margin-left: 40px;
 }
 
 .cr {
-  float: right;
+  .fr;
   margin-right: 40px;
   .bb;
   .shadow(5px);
+}
+
+.flex {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -moz-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex-center {
+  .flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
 }
 
 .nav-page {
@@ -246,6 +263,7 @@ button {
     .em(18);
     .museo7;
     margin: 0;
+    outline: none;
 }
 
 a,button {

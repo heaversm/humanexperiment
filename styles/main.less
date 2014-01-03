@@ -421,33 +421,52 @@ body {
     top: 0;
     left: 0;
     display: none;
+    z-index: 1;
+}
+
+#overlay-container.active {
+    .flex-center;
+    z-index: 1000;
 }
 
 .overlay-bg {
-    background: white;
-    background: rgba(255,255,255,.9);
+    background-color: rgba(255,255,255,.9);
     width: 100%;
     height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .overlay-content {
-    width: 790px;
-    position: absolute;
+    .px-perc(790,960);
+   /* width: 790px;*/
+    width: @perc;
+    position: relative;
     .round(5px);
     .shadow(5px);
-    left: 50%;
+    /*left: 50%;
     margin-left: -390px;
-    top: 100px;
+    top: 100px;*/
+    margin: 0 auto;
     text-align: center;
     background: white;
     .bb;
     padding: 15px;
     color: @gray8;
     display: none;
+    opacity: 0;
 
     .close-btn {
         float: right;
     }
+}
+
+.overlay-content.active {
+    display: block;
+    z-index: 999;
 }
 
 #overlay-faq {

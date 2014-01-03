@@ -45,11 +45,11 @@
                             </div>
                             <div id="switch-buttons" class="clearfix">
                                 <div class="switch-btn-container">
-                                    <button class="btn-round">WHY THESE PRODUCTS</button>
+                                    <button class="btn-modal btn-round" data-id="overlay-faq">WHY THESE PRODUCTS</button>
                                     <p>Click to learn more about<br/>these products</p>
                                 </div>
                                 <div class="switch-btn-container vine">
-                                    <button class="btn-round">IN PARTNERSHIP<br/>WITH VINE.COM</button>
+                                    <button class="btn-round btn-modal" data-id="overlay-vine">IN PARTNERSHIP<br/>WITH VINE.COM</button>
                                     <p>20% off your first order<br/>10% goes to non-profits working for change</p>
                                 </div>
                             </div>
@@ -101,6 +101,11 @@
         <?php require_once 'includes/join.php' ?>
         <?php require_once 'includes/credits.php' ?>
         <?php require_once 'includes/footer.php' ?>
+    </div>
+    <div id="overlay-container">
+        <div class="overlay-bg"></div>
+        <?php require_once 'includes/overlay-vine.php' ?>
+        <?php require_once 'includes/overlay-faq.php' ?>
     </div>
     <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
     <script src="scripts/vendor/modernizr.custom.13264.js"></script>
