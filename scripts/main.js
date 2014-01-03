@@ -2,8 +2,13 @@ var site =  (function (window,document, $){
 
     var prevScroll = 0;
 
-    function init(){
+    function ready(){
+        console.log('ready');
         addListeners();
+    }
+
+    function loaded(){
+
     }
     function addListeners(){
         addResizeListener();
@@ -12,6 +17,7 @@ var site =  (function (window,document, $){
         addScrollListener();
         addAnchorScrollListener();
         addModalListeners();
+        addVideoPlayListener();
     }
     function addResizeListener(){
         $(window).resize(function() {
@@ -76,6 +82,12 @@ var site =  (function (window,document, $){
             });
 
         })
+    }
+    function addVideoPlayListener(){
+        $('.video-play').on('click',function(){
+            console.log('click');
+            $('#video-frame').addClass('active');
+        });
     }
     function aspectResize(){
         $('.aspect-resize').each(function(){
@@ -155,10 +167,15 @@ var site =  (function (window,document, $){
         });
     }
     return {
-      init: init
+      loaded: loaded,
+      ready: ready
     }
 })(window,document,jQuery);
 
+$(document).ready(function(){
+    site.ready();
+})
+
 window.onload = function(){
-  site.init();
+  site.loaded();
 };

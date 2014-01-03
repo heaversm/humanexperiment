@@ -12,13 +12,16 @@
         <?php require_once 'includes/header.php' ?>
         <div id="trailer-container">
             <div id="trailer-content" class="container_24">
-                <div id="video-container" class="aspect-resize" data-ratio="1.6441">
-                    <div id="video-cta">
-                        <img class="video-title" src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
-                        <a class="play-btn-container">
-                            <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
-                            <p class="play-btn-text">WATCH THE TRAILER</p>
-                        </a>
+                <div id="video-positioner">
+                    <div id="video-container" class="aspect-resize" data-ratio="1.777">
+                        <div id="video-cta">
+                            <img class="video-title" src="images/trailer/trailer-cta.gif" alt="The Human Experiment" id="video-cta-text">
+                            <a class="play-btn-container video-play">
+                                <img class="play-btn" src="images/trailer/play-btn.png" alt="Watch Trailer">
+                                <p class="play-btn-text">WATCH THE TRAILER</p>
+                            </a>
+                        </div>
+                        <iframe id="video-frame" src="//player.vimeo.com/video/31683038?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
                 <img  id="credit-sean-penn" src="images/trailer/credit-sean-penn.png" alt="Narrated and Executive Produced by Sean Penn">

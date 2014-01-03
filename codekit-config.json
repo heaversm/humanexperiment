@@ -44,17 +44,6 @@
       "initialSize" : 15654,
       "fileType" : 8192
     },
-    "\/images\/laurels\/mill-valley.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
-      "initialSize" : 7006,
-      "fileType" : 8192
-    },
     "\/images\/stats\/stats-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -75,6 +64,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/credits\/credit-ktf.png",
       "initialSize" : 2456,
+      "fileType" : 8192
+    },
+    "\/images\/laurels\/mill-valley.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/laurels\/mill-valley.png",
+      "initialSize" : 7006,
       "fileType" : 8192
     },
     "\/images\/switch\/logo-vine.png" : {
@@ -119,14 +119,16 @@
       "initialSize" : 23850,
       "fileType" : 4096
     },
-    "\/includes\/product.php" : {
+    "\/images\/press\/laurel.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/includes\/product.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "initialSize" : 13699,
+      "fileType" : 8192
     },
     "\/images\/trailer\/trailer-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -189,16 +191,25 @@
       "initialSize" : 64245,
       "fileType" : 4096
     },
-    "\/images\/press\/laurel.png" : {
+    "\/includes\/product.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "inputAbbreviatedPath" : "\/includes\/product.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/switch\/products\/fair-trade.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
-      "initialSize" : 13699,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "initialSize" : 6764,
+      "fileType" : 4096
     },
     "\/includes\/credits.php" : {
       "ignoreWasSetByUser" : 0,
@@ -225,17 +236,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/images\/structure\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
-      "initialSize" : 4680,
-      "fileType" : 8192
     },
     "\/styles\/common.less" : {
       "ieCompatibility" : 1,
@@ -287,16 +287,16 @@
       "initialSize" : 2758,
       "fileType" : 8192
     },
-    "\/scripts\/modernize.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/images\/structure\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/modernize.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/modernize-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
+      "initialSize" : 4680,
+      "fileType" : 8192
     },
     "\/styles\/main.css" : {
       "ignoreWasSetByUser" : 0,
@@ -307,16 +307,16 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/images\/switch\/products\/fair-trade.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/scripts\/modernize.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "initialSize" : 6764,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/scripts\/modernize.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/modernize-ck.js",
+      "fileType" : 64
     },
     "\/images\/stats\/stat.png" : {
       "ignoreWasSetByUser" : 0,
@@ -550,16 +550,16 @@
       "initialSize" : 40297,
       "fileType" : 8192
     },
-    "\/images\/stats\/stats-lobby-number.png" : {
+    "\/images\/about\/bg-about.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
+      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
-      "initialSize" : 5446,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "initialSize" : 140655,
+      "fileType" : 4096
     },
     "\/images\/structure\/header-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -610,16 +610,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/about\/bg-about.jpg" : {
+    "\/images\/stats\/stats-lobby-number.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about\/bg-about.jpg",
-      "initialSize" : 140655,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-lobby-number.png",
+      "initialSize" : 5446,
+      "fileType" : 8192
     },
     "\/images\/stats\/stats-lobby-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -674,17 +674,6 @@
       "initialSize" : 6847,
       "fileType" : 8192
     },
-    "\/images\/press\/logo-abc.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
-      "initialSize" : 5229,
-      "fileType" : 4096
-    },
     "\/scripts\/vendor\/polycalc.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -695,6 +684,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/scripts\/vendor\/polycalc-ck.js",
       "fileType" : 64
+    },
+    "\/images\/press\/logo-abc.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/logo-abc.jpg",
+      "initialSize" : 5229,
+      "fileType" : 4096
     },
     "\/images\/credits\/credit-fledgling.png" : {
       "ignoreWasSetByUser" : 0,
@@ -729,16 +729,14 @@
       "initialSize" : 2092,
       "fileType" : 8192
     },
-    "\/scripts\/vendor\/jquery.placeholder.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/press.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/press.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/includes\/overlay-faq.php" : {
       "ignoreWasSetByUser" : 0,
@@ -749,14 +747,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/press.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/scripts\/vendor\/jquery.placeholder.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/press.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder-ck.js",
+      "fileType" : 64
     },
     "\/images\/switch\/products\/molly.jpg" : {
       "ignoreWasSetByUser" : 0,
