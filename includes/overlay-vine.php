@@ -1,9 +1,9 @@
 <div id="overlay-vine" class="overlay-content">
     <a href="" class="close-btn"><img src="images/structure/btn-close.gif" alt="Close"></a>
     <div id="vine-logos">
-        <a href=""><img src="images/overlay/logo-cancer.png" alt="Breast Cancer Foundation"></a>
-        <a href=""><img src="images/overlay/logo-vine.gif" alt="Vine"></a>
-        <a href=""><img src="images/overlay/logo-ecology.gif" alt="Ecology Center"></a>
+        <a href=""  class="vine-logo"><img src="images/overlay/logo-cancer.png" alt="Breast Cancer Foundation"></a>
+        <a href="" class="vine-logo"><img src="images/overlay/logo-vine.gif" alt="Vine"></a>
+        <a href="" class="vine-logo"><img src="images/overlay/logo-ecology.gif" alt="Ecology Center"></a>
         <p class="vine-promo">In partnership with <a href="http://vine.com">vine.com</a> 20% off your order.<br/>
 10% goes to Breast Cancer and the Ecology Center</p>
     </div>

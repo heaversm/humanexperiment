@@ -66,15 +66,26 @@
       "initialSize" : 2456,
       "fileType" : 8192
     },
-    "\/images\/press\/laurel.png" : {
+    "\/images\/stats\/stats-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "inputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
-      "initialSize" : 13699,
+      "outputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
+      "initialSize" : 33103,
+      "fileType" : 4096
+    },
+    "\/images\/switch\/logo-vine.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
+      "initialSize" : 3223,
       "fileType" : 8192
     },
     "\/scripts\/vendor\/modernizr.custom.68813.js" : {
@@ -108,17 +119,6 @@
       "initialSize" : 23850,
       "fileType" : 4096
     },
-    "\/images\/switch\/logo-vine.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/logo-vine.png",
-      "initialSize" : 3223,
-      "fileType" : 8192
-    },
     "\/styles\/breakpoints.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -139,22 +139,16 @@
       "initialSize" : 18483,
       "fileType" : 4096
     },
-    "\/styles\/breakpoints.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/breakpoints.less",
-      "outputAbbreviatedPath" : "\/styles\/breakpoints.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
+    "\/images\/press\/laurel.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/press\/laurel.png",
+      "initialSize" : 13699,
+      "fileType" : 8192
     },
     "\/images\/about\/filmmaker-dana.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -189,27 +183,22 @@
       "initialSize" : 64245,
       "fileType" : 4096
     },
-    "\/images\/stats\/stats-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/styles\/breakpoints.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/breakpoints.less",
+      "outputAbbreviatedPath" : "\/styles\/breakpoints.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/stats\/stats-bg.jpg",
-      "initialSize" : 33103,
-      "fileType" : 4096
-    },
-    "\/images\/switch\/products\/fair-trade.jpg" : {
-      "ignoreWasSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
       "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
-      "initialSize" : 6764,
-      "fileType" : 4096
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/includes\/credits.php" : {
       "ignoreWasSetByUser" : 0,
@@ -219,6 +208,23 @@
       "inputAbbreviatedPath" : "\/includes\/credits.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/styles\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/styles\/main.less",
+      "outputAbbreviatedPath" : "\/styles\/main.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/images\/structure\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -230,6 +236,17 @@
       "outputAbbreviatedPath" : "\/images\/structure\/logo.png",
       "initialSize" : 4680,
       "fileType" : 8192
+    },
+    "\/images\/switch\/products\/fair-trade.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/switch\/products\/fair-trade.jpg",
+      "initialSize" : 6764,
+      "fileType" : 4096
     },
     "\/styles\/common.less" : {
       "ieCompatibility" : 1,
@@ -248,17 +265,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/images\/overlay\/logo-cancer.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
-      "initialSize" : 6971,
-      "fileType" : 8192
-    },
     "\/images\/trailer\/play-btn.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -268,6 +274,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/trailer\/play-btn.png",
       "initialSize" : 5034,
+      "fileType" : 8192
+    },
+    "\/images\/see\/see-title.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/see\/see-title.png",
+      "initialSize" : 2758,
       "fileType" : 8192
     },
     "\/scripts\/modernize.js" : {
@@ -281,17 +298,6 @@
       "outputAbbreviatedPath" : "\/scripts\/modernize-ck.js",
       "fileType" : 64
     },
-    "\/images\/see\/see-title.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/see\/see-title.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/see\/see-title.png",
-      "initialSize" : 2758,
-      "fileType" : 8192
-    },
     "\/styles\/main.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -301,22 +307,16 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/styles\/main.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/styles\/main.less",
-      "outputAbbreviatedPath" : "\/styles\/main.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/images\/overlay\/logo-cancer.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/overlay\/logo-cancer.png",
+      "initialSize" : 6971,
+      "fileType" : 8192
     },
     "\/images\/stats\/stat.png" : {
       "ignoreWasSetByUser" : 0,
@@ -539,17 +539,6 @@
       "initialSize" : 7297,
       "fileType" : 4096
     },
-    "\/scripts\/vendor\/jquery-1.10.2.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery-1.10.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery-1.10.2.min-ck.js",
-      "fileType" : 64
-    },
     "\/images\/trailer\/trailer-cta.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -572,6 +561,15 @@
       "initialSize" : 5446,
       "fileType" : 8192
     },
+    "\/includes\/join.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/join.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/structure\/header-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -592,16 +590,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/about\/filmmaker-don.jpg" : {
+    "\/template.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
-      "initialSize" : 48176,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/about\/bg-about.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -614,23 +610,27 @@
       "initialSize" : 140655,
       "fileType" : 4096
     },
-    "\/includes\/join.php" : {
+    "\/images\/about\/filmmaker-don.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/includes\/join.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/about\/filmmaker-don.jpg",
+      "initialSize" : 48176,
+      "fileType" : 4096
     },
-    "\/template.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/scripts\/vendor\/jquery-1.10.2.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery-1.10.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery-1.10.2.min-ck.js",
+      "fileType" : 64
     },
     "\/images\/stats\/stats-lobby-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -740,26 +740,6 @@
       "initialSize" : 2092,
       "fileType" : 8192
     },
-    "\/scripts\/vendor\/jquery.placeholder.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder-ck.js",
-      "fileType" : 64
-    },
-    "\/includes\/overlay-faq.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/includes\/overlay-faq.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/press.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -779,6 +759,26 @@
       "outputAbbreviatedPath" : "\/images\/switch\/products\/molly.jpg",
       "initialSize" : 6705,
       "fileType" : 4096
+    },
+    "\/scripts\/vendor\/jquery.placeholder.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/scripts\/vendor\/jquery.placeholder-ck.js",
+      "fileType" : 64
+    },
+    "\/includes\/overlay-faq.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/includes\/overlay-faq.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/about.php" : {
       "ignoreWasSetByUser" : 0,
