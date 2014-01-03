@@ -7,6 +7,7 @@ var site =  (function (window,document, $){
     }
     function addListeners(){
         addResizeListener();
+        aspectResize();
         addNavListener();
         addScrollListener();
         addAnchorScrollListener();
