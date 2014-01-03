@@ -20,7 +20,7 @@
     <div id="container">
         <?php require_once 'includes/header.php' ?>
         <div id="switch-container" class="container_24 clearfix">
-            <div id="nav-switch" class="nav-page">
+            <div id="nav-switch" class="nav-page scrollfx" data-id="nav-switch">
                 <a href="">Shampoo</a>
                 <a href="">Conditioner</a>
                 <a href="">Baby Bath Products</a>
