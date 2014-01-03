@@ -108,8 +108,7 @@
         <?php require_once 'includes/overlay-faq.php' ?>
     </div>
     <script src="scripts/vendor/jquery-1.10.2.min.js"></script>
-    <script src="scripts/vendor/modernizr.custom.13264.js"></script>
-    <!--<script src="scripts/vendor/modernizr.custom.68813.js"></script>-->
+    <script src="scripts/vendor/modernizr.custom.68813.js"></script>
     <script src="scripts/modernize.js"></script>
     <script src="scripts/main.js"></script>
 </body>

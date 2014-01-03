@@ -99,6 +99,8 @@
   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 .flex {
+  display: block;
+  /* fallback */
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -moz-flexbox;
@@ -106,6 +108,8 @@
   display: flex;
 }
 .flex-center {
+  display: block;
+  /* fallback */
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -moz-flexbox;
@@ -691,6 +695,8 @@ body {
   z-index: 1;
 }
 #overlay-container.active {
+  display: block;
+  /* fallback */
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -moz-flexbox;
@@ -745,6 +751,9 @@ body {
   display: block;
   z-index: 999;
 }
+.no-flexbox .overlay-content.active {
+  margin-top: 40px;
+}
 #overlay-faq h3 {
   color: #288982;
 }
@@ -754,7 +763,7 @@ body {
   -moz-font-smoothing: antialiased;
   font-family: 'museo_sans300';
 }
-.overlay-text {
+#overlay-faq .overlay-text {
   margin-top: 30px;
   padding: 0 35px;
 }
@@ -1395,6 +1404,9 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
+  .no-flexbox .overlay-content.active {
+    margin-top: 0;
+  }
   .overlay-content.active {
     width: 100%;
     height: 100%;
@@ -1603,13 +1615,10 @@ body {
     width: 100%;
   }
   #switch-buttons {
-    padding: 0px 40px;
+    padding: 0px 20px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-  }
-  #switch-buttons .ib {
-    display: block;
   }
   #switch-buttons .switch-btn-container {
     width: 100%;
