@@ -15,6 +15,7 @@ var site =  (function (window,document, $){
     function addResizeListener(){
         $(window).resize(function() {
             aspectResize();
+            navResize();
         });
     }
     function addNavListener(){
@@ -82,6 +83,14 @@ var site =  (function (window,document, $){
             $el.height(elWidth / $el.data('ratio'));
         });
     }
+    function navResize(){
+        if ($('.nav-page').length > 0){
+            var $el = $('.nav-page');
+            var limit = $('#join-container').offset().top;
+            var itemHeight = $el.outerHeight();
+            $el.data('limit',limit-itemHeight-90);
+        }
+    }
     function scrollFunctions(scrollElements){
         $(scrollElements).each(function(index){
             var $el = $(this);
@@ -110,25 +119,31 @@ var site =  (function (window,document, $){
                         //console.log(offset,scrollTop,windowHeight);
 
                         if (scrollTop > prevScroll){ //scrolling down
-                            if (offset - scrollTop < 50){
+                            if (offset - scrollTop < 50){ //past the header
                                 if ($el.css('position') == "absolute"){
-                                    $el.css({'position' : 'fixed' });
+                                    var ww = $(window).width();
+                                    var cw = $('#switch-container').width();
+                                    var leftPos = (ww-cw)/2;
+                                    $el.css({'position' : 'fixed' , 'left' : leftPos+'px'});
                                 }
                             }
-                            if (scrollTop > limit){
+                            if (scrollTop > limit){ //reach the bottom
                                 if ($el.css('position') == "fixed"){
-                                    $el.css({'position' : 'absolute', 'top' : limit-70+'px' });
+                                    $el.css({'position' : 'absolute', 'top' : limit-70+'px' , 'left' : '0px'});
                                 }
                             }
                         } else { //scrolling up
-                            if (offset - scrollTop > 50){
+                            if (offset - scrollTop > 50){ //reach the top
                                 if ($el.css('position') == "fixed"){
-                                    $el.css({'position' : 'absolute' });
+                                    $el.css({'position' : 'absolute' , 'left' : '0px'});
                                 }
                             }
-                            if (scrollTop < limit && scrollTop > offset){
+                            if (scrollTop < limit && scrollTop > offset){  //past the footer
                                 if ($el.css('position') == "absolute"){
-                                    $el.css({'position' : 'fixed' , 'top' : '50px' });
+                                    var ww = $(window).width();
+                                    var cw = $('#switch-container').width();
+                                    var leftPos = (ww-cw)/2;
+                                    $el.css({'position' : 'fixed' , 'top' : '50px', 'left' : leftPos + 'px' });
                                 }
                             }
                         }
